@@ -57,29 +57,38 @@ export default function Home({ onNavigate, onPlayRadio }: HomeProps) {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center p-8 rounded-2xl bg-gradient-to-br from-[#3E5F48]/5 to-[#C9A646]/5 hover:shadow-xl transition-shadow duration-300">
+            <button
+              onClick={() => onNavigate('berakar')}
+              className="text-center p-8 rounded-2xl bg-gradient-to-br from-[#3E5F48]/5 to-[#C9A646]/5 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer"
+            >
               <div className="bg-[#3E5F48] text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Radio className="h-8 w-8" />
               </div>
               <h3 className="text-2xl font-bold text-[#3E5F48] mb-2">Berakar</h3>
               <p className="text-gray-600">Kuat dalam iman dan firman Tuhan</p>
-            </div>
+            </button>
 
-            <div className="text-center p-8 rounded-2xl bg-gradient-to-br from-[#3E5F48]/5 to-[#C9A646]/5 hover:shadow-xl transition-shadow duration-300">
+            <button
+              onClick={() => onNavigate('bertumbuh')}
+              className="text-center p-8 rounded-2xl bg-gradient-to-br from-[#3E5F48]/5 to-[#C9A646]/5 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer"
+            >
               <div className="bg-[#C9A646] text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <TrendingUp className="h-8 w-8" />
               </div>
               <h3 className="text-2xl font-bold text-[#3E5F48] mb-2">Bertumbuh</h3>
               <p className="text-gray-600">Berkembang dalam kreativitas dan pelayanan</p>
-            </div>
+            </button>
 
-            <div className="text-center p-8 rounded-2xl bg-gradient-to-br from-[#3E5F48]/5 to-[#C9A646]/5 hover:shadow-xl transition-shadow duration-300">
+            <button
+              onClick={() => onNavigate('berbuah')}
+              className="text-center p-8 rounded-2xl bg-gradient-to-br from-[#3E5F48]/5 to-[#C9A646]/5 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer"
+            >
               <div className="bg-[#3E5F48] text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Heart className="h-8 w-8" />
               </div>
               <h3 className="text-2xl font-bold text-[#3E5F48] mb-2">Berbuah</h3>
               <p className="text-gray-600">Memberkati bangsa melalui media</p>
-            </div>
+            </button>
           </div>
         </div>
       </section>
@@ -95,7 +104,28 @@ export default function Home({ onNavigate, onPlayRadio }: HomeProps) {
                 3B Creative Ministry adalah sebuah pelayanan media Kristen yang hadir untuk memberdayakan gereja, komunitas, dan generasi muda melalui kreativitas, teknologi, dan konten yang membangun iman.
               </p>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Nama "3B" diambil dari prinsip rohani: <span className="font-semibold text-[#3E5F48]">Berakar, Bertumbuh, Berbuah</span>. Kami percaya media adalah ladang pelayanan modern.
+                Nama "3B" diambil dari prinsip rohani:{' '}
+                <button
+                  onClick={() => onNavigate('berakar')}
+                  className="font-semibold text-[#3E5F48] hover:text-[#C9A646] transition-colors underline"
+                >
+                  Berakar
+                </button>
+                ,{' '}
+                <button
+                  onClick={() => onNavigate('bertumbuh')}
+                  className="font-semibold text-[#3E5F48] hover:text-[#C9A646] transition-colors underline"
+                >
+                  Bertumbuh
+                </button>
+                ,{' '}
+                <button
+                  onClick={() => onNavigate('berbuah')}
+                  className="font-semibold text-[#3E5F48] hover:text-[#C9A646] transition-colors underline"
+                >
+                  Berbuah
+                </button>
+                . Kami percaya media adalah ladang pelayanan modern.
               </p>
               <button
                 onClick={() => onNavigate('profile')}

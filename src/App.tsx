@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
+import WhatsAppButton from './components/WhatsAppButton';
 import Home from './pages/Home';
 import Berakar from './pages/Berakar';
 import Bertumbuh from './pages/Bertumbuh';
@@ -111,6 +112,7 @@ function App() {
       <Navigation currentPage={currentPage} onNavigate={handleNavigate} />
       <main className="flex-grow">{renderPage()}</main>
       <Footer onNavigate={handleNavigate} />
+      <WhatsAppButton />
     </div>
   );
 }
