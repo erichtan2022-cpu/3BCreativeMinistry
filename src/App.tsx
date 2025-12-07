@@ -2,13 +2,17 @@ import { useState, useEffect } from 'react';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import Home from './pages/Home';
-import About from './pages/About';
-import Services from './pages/Services';
-import Jobs from './pages/Jobs';
-import Employers from './pages/Employers';
+import Berakar from './pages/Berakar';
+import Bertumbuh from './pages/Bertumbuh';
+import Berbuah from './pages/Berbuah';
+import Profile from './pages/Profile';
+import Programs from './pages/Programs';
+import Media from './pages/Media';
+import Collaboration from './pages/Collaboration';
+import Donation from './pages/Donation';
 import Contact from './pages/Contact';
 
-type PageType = 'home' | 'about' | 'services' | 'jobs' | 'employers' | 'contact';
+type PageType = 'home' | 'berakar' | 'bertumbuh' | 'berbuah' | 'profile' | 'programs' | 'media' | 'collaboration' | 'donation' | 'contact';
 
 interface PageMetadata {
   title: string;
@@ -17,28 +21,44 @@ interface PageMetadata {
 
 const pageMetadata: Record<PageType, PageMetadata> = {
   home: {
-    title: 'PT Solusi Global Karier | International Recruitment & Global Career Solutions Indonesia',
-    description: 'Leading Indonesian overseas recruitment agency connecting skilled professionals with global career opportunities. Comprehensive training, placement services, and workforce solutions for international jobs.',
+    title: '3B Creative Ministry – Pelayanan Media Kristen Modern',
+    description: 'Memberdayakan Gereja & Generasi Melalui Kreativitas dan Media Kristen. Berakar, Bertumbuh, Berbuah dalam pelayanan.',
   },
-  about: {
-    title: 'About Us | PT Solusi Global Karier - Your Partner in Global Success',
-    description: 'Learn about PT Solusi Global Karier, Indonesia\'s trusted international recruitment agency. 15+ years of experience placing skilled Indonesian professionals in global careers.',
+  berakar: {
+    title: 'Berakar – Kuat dalam Iman dan Firman Tuhan | 3B Creative Ministry',
+    description: 'Program Berakar: membangun fondasi iman yang kuat melalui pengajaran firman Tuhan dan pembinaan rohani yang mendalam.',
   },
-  services: {
-    title: 'Our Services | Talent Recruitment, Training & Global Placement',
-    description: 'Comprehensive international recruitment services including talent sourcing, workforce training programs, visa processing, and global placement support for Indonesian professionals.',
+  bertumbuh: {
+    title: 'Bertumbuh – Berkembang dalam Kreativitas dan Pelayanan | 3B Creative Ministry',
+    description: 'Program Bertumbuh: pelatihan media dan kreativitas untuk mengembangkan talenta dalam pelayanan Kristen modern.',
   },
-  jobs: {
-    title: 'Job Openings | International Career Opportunities for Indonesians',
-    description: 'Browse current international job opportunities for Indonesian professionals. Find jobs abroad in Japan, Singapore, UAE, Malaysia, Saudi Arabia and more countries.',
+  berbuah: {
+    title: 'Berbuah – Memberkati Bangsa Melalui Media | 3B Creative Ministry',
+    description: 'Program Berbuah: menjangkau dan memberkati lebih banyak jiwa melalui produksi konten dan media Kristen berkualitas.',
   },
-  employers: {
-    title: 'For Employers | Hire Top Indonesian Talent & Skilled Workforce',
-    description: 'International companies: access Indonesia\'s skilled workforce. Professional recruitment, training, and placement services for reliable Indonesian employees.',
+  profile: {
+    title: 'Profil Kami | 3B Creative Ministry',
+    description: 'Kenali lebih dalam tentang 3B Creative Ministry, visi, misi, dan tim yang melayani dalam pelayanan media Kristen.',
+  },
+  programs: {
+    title: 'Program Pelayanan | 3B Creative Ministry',
+    description: 'Jelajahi berbagai program pelayanan kami: produksi media, pelatihan, kolaborasi gereja, dan platform digital.',
+  },
+  media: {
+    title: 'Media & Konten | 3B Creative Ministry',
+    description: 'Akses koleksi konten rohani, video, audio, dan media kreatif untuk membangun iman dan memberkati komunitas.',
+  },
+  collaboration: {
+    title: 'Kolaborasi | 3B Creative Ministry',
+    description: 'Bermitra dengan 3B Creative Ministry untuk mengembangkan pelayanan media di gereja dan komunitas Anda.',
+  },
+  donation: {
+    title: 'Donasi | Dukung Pelayanan Media Kristen | 3B Creative Ministry',
+    description: 'Jadilah bagian dari pekerjaan Tuhan dengan mendukung pelayanan media Kristen yang memberkati banyak jiwa.',
   },
   contact: {
-    title: 'Contact Us | PT Solusi Global Karier - Get Started Today',
-    description: 'Contact PT Solusi Global Karier for international recruitment services. Jakarta-based office serving Indonesian job seekers and international employers worldwide.',
+    title: 'Kontak Kami | 3B Creative Ministry',
+    description: 'Hubungi 3B Creative Ministry untuk informasi lebih lanjut tentang pelayanan, kolaborasi, dan program media Kristen.',
   },
 };
 
@@ -63,14 +83,22 @@ function App() {
     switch (currentPage) {
       case 'home':
         return <Home onNavigate={handleNavigate} />;
-      case 'about':
-        return <About />;
-      case 'services':
-        return <Services />;
-      case 'jobs':
-        return <Jobs />;
-      case 'employers':
-        return <Employers />;
+      case 'berakar':
+        return <Berakar onNavigate={handleNavigate} />;
+      case 'bertumbuh':
+        return <Bertumbuh onNavigate={handleNavigate} />;
+      case 'berbuah':
+        return <Berbuah onNavigate={handleNavigate} />;
+      case 'profile':
+        return <Profile onNavigate={handleNavigate} />;
+      case 'programs':
+        return <Programs onNavigate={handleNavigate} />;
+      case 'media':
+        return <Media onNavigate={handleNavigate} />;
+      case 'collaboration':
+        return <Collaboration onNavigate={handleNavigate} />;
+      case 'donation':
+        return <Donation onNavigate={handleNavigate} />;
       case 'contact':
         return <Contact />;
       default:
