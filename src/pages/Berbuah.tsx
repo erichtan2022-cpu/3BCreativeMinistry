@@ -3,12 +3,12 @@ import SEO from '../components/SEO';
 
 export default function Berbuah() {
   const gallery = [
-    'https://images.pexels.com/photos/3588365/pexels-photo-3588365.jpeg',
-    'https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg',
-    'https://images.pexels.com/photos/3938019/pexels-photo-3938019.jpeg',
-    'https://images.pexels.com/photos/3807707/pexels-photo-3807707.jpeg',
-    'https://images.pexels.com/photos/3831645/pexels-photo-3831645.jpeg',
-    'https://images.pexels.com/photos/3807514/pexels-photo-3807514.jpeg',
+    'https://i.imgur.com/DcWsBt3.jpeg',
+    'https://i.imgur.com/whuEJXT.jpeg',
+    'https://i.imgur.com/DndXTHk.jpeg',
+    'https://i.imgur.com/ZXsbmiD.jpeg',
+    'https://i.imgur.com/a2MN4zs.jpeg',
+    'https://i.imgur.com/fPZixLQ.jpeg',
   ];
 
   const testimonies = [
