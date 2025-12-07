@@ -1,4 +1,4 @@
-import { Heart, DollarSign, Package, Calendar, Shield, Users } from 'lucide-react';
+import { Heart, DollarSign, Package, Calendar, Shield, Users, Star, Sparkles, TrendingUp, Award, CheckCircle } from 'lucide-react';
 import SEO from '../components/SEO';
 
 export default function Donation() {
@@ -91,6 +91,192 @@ export default function Donation() {
           <p className="text-xl text-gray-200 max-w-3xl mx-auto">
             Dukungan Anda memampukan kami untuk terus melayani dan memberkati lebih banyak jiwa melalui media Kristen
           </p>
+        </div>
+      </section>
+
+      <section className="py-20 bg-gradient-to-br from-[#3E5F48]/5 to-[#C9A646]/5">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center justify-center space-x-2 mb-4">
+              <Sparkles className="h-8 w-8 text-[#C9A646]" />
+              <h2 className="text-3xl md:text-4xl font-bold text-[#3E5F48]">
+                Manfaat Berdonasi Melalui 3B Creative Ministry
+              </h2>
+            </div>
+            <p className="text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed">
+              Memberikan donasi melalui 3B Creative Ministry bukan hanya sebuah tindakan dukungan, tetapi juga investasi bagi pekerjaan Tuhan dan masa depan generasi. Berikut sejumlah manfaat yang dapat Anda peroleh sebagai donatur:
+            </p>
+          </div>
+
+          <div className="space-y-8">
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+              <div className="flex items-start space-x-4">
+                <div className="bg-gradient-to-br from-[#C9A646] to-[#b89438] text-white w-14 h-14 rounded-full flex items-center justify-center flex-shrink-0">
+                  <Star className="h-7 w-7" />
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-2xl font-bold text-[#3E5F48] mb-3">
+                    1. Mendapatkan Pengurangan Beban Pajak
+                  </h3>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    3B Creative Ministry terdaftar secara resmi, sehingga donasi Anda dapat dijadikan pengurang penghasilan bruto sesuai ketentuan yang berlaku.
+                  </p>
+                  <div className="bg-[#3E5F48]/5 rounded-xl p-5">
+                    <p className="font-semibold text-[#3E5F48] mb-3">Hasilnya:</p>
+                    <ul className="space-y-2">
+                      <li className="flex items-start space-x-2">
+                        <CheckCircle className="h-5 w-5 text-[#C9A646] flex-shrink-0 mt-0.5" />
+                        <span className="text-gray-700">Penghasilan kena pajak berkurang</span>
+                      </li>
+                      <li className="flex items-start space-x-2">
+                        <CheckCircle className="h-5 w-5 text-[#C9A646] flex-shrink-0 mt-0.5" />
+                        <span className="text-gray-700">Jumlah pajak yang perlu dibayarkan menjadi lebih kecil</span>
+                      </li>
+                      <li className="flex items-start space-x-2">
+                        <CheckCircle className="h-5 w-5 text-[#C9A646] flex-shrink-0 mt-0.5" />
+                        <span className="text-gray-700">Anda berbuat baik sambil menerima manfaat finansial yang sah</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+              <div className="flex items-start space-x-4">
+                <div className="bg-gradient-to-br from-[#3E5F48] to-[#2a4233] text-white w-14 h-14 rounded-full flex items-center justify-center flex-shrink-0">
+                  <Star className="h-7 w-7" />
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-2xl font-bold text-[#3E5F48] mb-3">
+                    2. Kepuasan Sosial dan Spiritual
+                  </h3>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    Berdonasi bukan sekadar memberikan dana—ini adalah bentuk ibadah, kasih, dan kepedulian.
+                  </p>
+                  <p className="text-gray-700 leading-relaxed mb-3">
+                    Melalui 3B Creative Ministry, Anda berkontribusi pada:
+                  </p>
+                  <ul className="space-y-2 mb-4">
+                    <li className="flex items-start space-x-2">
+                      <CheckCircle className="h-5 w-5 text-[#C9A646] flex-shrink-0 mt-0.5" />
+                      <span className="text-gray-700">Pengembangan konten rohani</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <CheckCircle className="h-5 w-5 text-[#C9A646] flex-shrink-0 mt-0.5" />
+                      <span className="text-gray-700">Pembinaan generasi muda</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <CheckCircle className="h-5 w-5 text-[#C9A646] flex-shrink-0 mt-0.5" />
+                      <span className="text-gray-700">Penyebaran pesan Injil melalui media digital</span>
+                    </li>
+                  </ul>
+                  <p className="text-gray-700 leading-relaxed font-semibold italic">
+                    Memberi membawa sukacita tersendiri yang tidak tergantikan.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+              <div className="flex items-start space-x-4">
+                <div className="bg-gradient-to-br from-[#C9A646] to-[#b89438] text-white w-14 h-14 rounded-full flex items-center justify-center flex-shrink-0">
+                  <Star className="h-7 w-7" />
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-2xl font-bold text-[#3E5F48] mb-3">
+                    3. Turut Menggerakkan Pelayanan & Filantropi
+                  </h3>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    Dukungan Anda memungkinkan kami untuk terus:
+                  </p>
+                  <ul className="space-y-2 mb-4">
+                    <li className="flex items-start space-x-2">
+                      <CheckCircle className="h-5 w-5 text-[#C9A646] flex-shrink-0 mt-0.5" />
+                      <span className="text-gray-700">Menciptakan konten yang menguatkan iman</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <CheckCircle className="h-5 w-5 text-[#C9A646] flex-shrink-0 mt-0.5" />
+                      <span className="text-gray-700">Menyelenggarakan program pelatihan media</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <CheckCircle className="h-5 w-5 text-[#C9A646] flex-shrink-0 mt-0.5" />
+                      <span className="text-gray-700">Menjangkau lebih banyak jiwa melalui platform digital</span>
+                    </li>
+                  </ul>
+                  <p className="text-gray-700 leading-relaxed font-semibold">
+                    Setiap donasi menjadikan Anda bagian dari dampak yang berkelanjutan.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+              <div className="flex items-start space-x-4">
+                <div className="bg-gradient-to-br from-[#3E5F48] to-[#2a4233] text-white w-14 h-14 rounded-full flex items-center justify-center flex-shrink-0">
+                  <Star className="h-7 w-7" />
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-2xl font-bold text-[#3E5F48] mb-3">
+                    4. Meningkatkan Citra & Reputasi
+                  </h3>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    Bagi individu maupun perusahaan, donasi resmi melalui 3B Creative Ministry dapat meningkatkan:
+                  </p>
+                  <ul className="space-y-2 mb-4">
+                    <li className="flex items-start space-x-2">
+                      <Award className="h-5 w-5 text-[#C9A646] flex-shrink-0 mt-0.5" />
+                      <span className="text-gray-700">Reputasi sosial</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <Award className="h-5 w-5 text-[#C9A646] flex-shrink-0 mt-0.5" />
+                      <span className="text-gray-700">Brand image yang peduli</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <Award className="h-5 w-5 text-[#C9A646] flex-shrink-0 mt-0.5" />
+                      <span className="text-gray-700">Kepercayaan publik, karyawan, dan mitra</span>
+                    </li>
+                  </ul>
+                  <p className="text-gray-700 leading-relaxed font-semibold">
+                    Kepedulian Anda menunjukkan nilai kemanusiaan dan komitmen spiritual yang kuat.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+              <div className="flex items-start space-x-4">
+                <div className="bg-gradient-to-br from-[#C9A646] to-[#b89438] text-white w-14 h-14 rounded-full flex items-center justify-center flex-shrink-0">
+                  <Star className="h-7 w-7" />
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-2xl font-bold text-[#3E5F48] mb-3">
+                    5. Transparansi & Akuntabilitas Terjamin
+                  </h3>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    Sebagai lembaga pelayanan resmi, 3B Creative Ministry menjalankan:
+                  </p>
+                  <ul className="space-y-2 mb-4">
+                    <li className="flex items-start space-x-2">
+                      <Shield className="h-5 w-5 text-[#C9A646] flex-shrink-0 mt-0.5" />
+                      <span className="text-gray-700">Sistem pelaporan yang jelas</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <Shield className="h-5 w-5 text-[#C9A646] flex-shrink-0 mt-0.5" />
+                      <span className="text-gray-700">Pengelolaan dana yang bertanggung jawab</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <Shield className="h-5 w-5 text-[#C9A646] flex-shrink-0 mt-0.5" />
+                      <span className="text-gray-700">Penggunaan dana sesuai peruntukan pelayanan</span>
+                    </li>
+                  </ul>
+                  <p className="text-gray-700 leading-relaxed font-semibold">
+                    Anda dapat memberi dengan tenang dan yakin, karena setiap kontribusi dikelola dengan integritas.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
