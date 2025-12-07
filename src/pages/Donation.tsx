@@ -1,0 +1,294 @@
+import { Heart, DollarSign, Package, Calendar, Shield, Users } from 'lucide-react';
+import SEO from '../components/SEO';
+
+export default function Donation() {
+  const donationTypes = [
+    {
+      title: 'Donasi Bulanan',
+      description: 'Menjadi mitra tetap dengan dukungan rutin setiap bulan untuk mendukung operasional pelayanan',
+      icon: Calendar,
+      features: [
+        'Dukungan operasional berkelanjutan',
+        'Update bulanan tentang pelayanan',
+        'Sertifikat apresiasi donatur',
+        'Doa khusus untuk donatur',
+      ],
+      color: 'from-[#3E5F48] to-[#2a4233]',
+    },
+    {
+      title: 'Donasi Peralatan Media',
+      description: 'Kontribusi untuk pengadaan dan upgrade peralatan produksi media berkualitas',
+      icon: Package,
+      features: [
+        'Kamera dan lensa profesional',
+        'Peralatan audio recording',
+        'Lighting dan studio equipment',
+        'Komputer dan software editing',
+      ],
+      color: 'from-[#C9A646] to-[#b89438]',
+    },
+    {
+      title: 'Donasi Program',
+      description: 'Sponsor program pelatihan dan workshop untuk gereja dan komunitas',
+      icon: Users,
+      features: [
+        'Workshop media untuk gereja',
+        'Pelatihan tim media',
+        'Produksi konten rohani',
+        'Program pengembangan talenta',
+      ],
+      color: 'from-[#3E5F48] to-[#2a4233]',
+    },
+    {
+      title: 'Donasi Operasional',
+      description: 'Dukungan untuk kebutuhan operasional harian pelayanan',
+      icon: DollarSign,
+      features: [
+        'Biaya produksi konten',
+        'Pemeliharaan peralatan',
+        'Hosting dan infrastruktur digital',
+        'Tim operasional',
+      ],
+      color: 'from-[#C9A646] to-[#b89438]',
+    },
+  ];
+
+  const impact = [
+    {
+      number: '50+',
+      label: 'Gereja Bermitra',
+      icon: Users,
+    },
+    {
+      number: '100+',
+      label: 'Konten Diproduksi',
+      icon: Package,
+    },
+    {
+      number: '200+',
+      label: 'Peserta Pelatihan',
+      icon: Users,
+    },
+    {
+      number: '24/7',
+      label: 'Radio Streaming',
+      icon: Calendar,
+    },
+  ];
+
+  return (
+    <div className="pt-16 animate-fadeIn">
+      <SEO
+        title="Donasi - 3B Creative Ministry"
+        description="Jadilah bagian dari pekerjaan Tuhan melalui media. Dukungan Anda memampukan kami melayani dan memberkati lebih banyak jiwa melalui pelayanan media Kristen."
+      />
+
+      <section className="bg-gradient-to-br from-[#3E5F48] to-[#2a4233] text-white py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">
+            Jadilah Bagian dari Pekerjaan Tuhan Melalui Media
+          </h1>
+          <p className="text-xl text-gray-200 max-w-3xl mx-auto">
+            Dukungan Anda memampukan kami untuk terus melayani dan memberkati lebih banyak jiwa melalui media Kristen
+          </p>
+        </div>
+      </section>
+
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#3E5F48] mb-6">
+              Dampak Donasi Anda
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Setiap kontribusi Anda membawa perubahan nyata dalam pelayanan
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16">
+            {impact.map((item, index) => (
+              <div
+                key={index}
+                className="text-center p-6 bg-gradient-to-br from-gray-50 to-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300"
+              >
+                <div className="bg-[#C9A646] text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <item.icon className="h-8 w-8" />
+                </div>
+                <div className="text-3xl font-bold text-[#3E5F48] mb-2">{item.number}</div>
+                <div className="text-gray-600">{item.label}</div>
+              </div>
+            ))}
+          </div>
+
+          <div className="bg-gradient-to-br from-[#3E5F48]/5 to-[#C9A646]/5 rounded-2xl p-8 md:p-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+              <div>
+                <h3 className="text-2xl font-bold text-[#3E5F48] mb-4">
+                  Mengapa Donasi Anda Penting?
+                </h3>
+                <div className="space-y-4">
+                  <p className="text-gray-700 leading-relaxed">
+                    Pelayanan media membutuhkan sumber daya yang tidak sedikit, mulai dari peralatan, tim profesional, hingga infrastruktur digital.
+                  </p>
+                  <p className="text-gray-700 leading-relaxed">
+                    Dengan dukungan Anda, kami dapat terus menghadirkan konten rohani berkualitas, melatih lebih banyak pelayan media, dan menjangkau lebih banyak jiwa untuk Kristus.
+                  </p>
+                  <p className="text-gray-700 leading-relaxed font-semibold text-[#3E5F48]">
+                    Bersama kita membangun ladang pelayanan digital untuk kemuliaan Tuhan!
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-xl p-8 shadow-lg">
+                <div className="flex items-center space-x-3 mb-6">
+                  <Shield className="h-8 w-8 text-[#C9A646]" />
+                  <h3 className="text-xl font-semibold text-[#3E5F48]">Donasi Aman & Transparan</h3>
+                </div>
+                <ul className="space-y-3 text-gray-700">
+                  <li className="flex items-start space-x-2">
+                    <span className="text-[#C9A646] mt-1">✓</span>
+                    <span>Laporan keuangan transparan</span>
+                  </li>
+                  <li className="flex items-start space-x-2">
+                    <span className="text-[#C9A646] mt-1">✓</span>
+                    <span>Update penggunaan dana secara berkala</span>
+                  </li>
+                  <li className="flex items-start space-x-2">
+                    <span className="text-[#C9A646] mt-1">✓</span>
+                    <span>Terdaftar secara legal</span>
+                  </li>
+                  <li className="flex items-start space-x-2">
+                    <span className="text-[#C9A646] mt-1">✓</span>
+                    <span>Akuntabilitas tinggi</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 bg-gradient-to-br from-[#3E5F48]/5 to-[#C9A646]/5">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#3E5F48] mb-6">
+              Jenis Donasi
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Pilih bentuk dukungan yang sesuai dengan hati Anda
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {donationTypes.map((donation, index) => (
+              <div
+                key={index}
+                className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
+              >
+                <div className={`bg-gradient-to-br ${donation.color} text-white p-8`}>
+                  <donation.icon className="h-12 w-12 mb-4" />
+                  <h3 className="text-2xl font-bold mb-2">{donation.title}</h3>
+                  <p className="text-gray-100">{donation.description}</p>
+                </div>
+
+                <div className="p-8">
+                  <h4 className="font-semibold text-[#3E5F48] mb-4">Dukungan untuk:</h4>
+                  <ul className="space-y-3">
+                    {donation.features.map((feature, idx) => (
+                      <li key={idx} className="flex items-start space-x-3">
+                        <Heart className="h-5 w-5 text-[#C9A646] flex-shrink-0 mt-0.5" />
+                        <span className="text-gray-700">{feature}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-gradient-to-br from-[#3E5F48] to-[#2a4233] rounded-2xl p-12 text-white text-center">
+            <Heart className="h-16 w-16 mx-auto mb-6 text-[#C9A646]" />
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              Cara Berdonasi
+            </h2>
+
+            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 mb-8">
+              <h3 className="text-xl font-semibold mb-6">Informasi Rekening</h3>
+
+              <div className="space-y-4 text-left max-w-md mx-auto">
+                <div className="bg-white/20 rounded-lg p-4">
+                  <p className="text-sm text-gray-200 mb-1">Bank BCA</p>
+                  <p className="font-mono text-xl font-bold">1234567890</p>
+                  <p className="text-sm text-gray-200">a.n. 3B Creative Ministry</p>
+                </div>
+
+                <div className="bg-white/20 rounded-lg p-4">
+                  <p className="text-sm text-gray-200 mb-1">Bank Mandiri</p>
+                  <p className="font-mono text-xl font-bold">0987654321</p>
+                  <p className="text-sm text-gray-200">a.n. 3B Creative Ministry</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="space-y-4 text-left max-w-2xl mx-auto mb-8">
+              <h3 className="text-xl font-semibold text-center">Langkah Donasi:</h3>
+              <ol className="space-y-3 list-decimal list-inside">
+                <li className="text-gray-100">Transfer ke salah satu rekening di atas</li>
+                <li className="text-gray-100">Sertakan nama dan tujuan donasi di berita transfer</li>
+                <li className="text-gray-100">Konfirmasi via WhatsApp: +62 888-0806-8106</li>
+                <li className="text-gray-100">Kami akan mengirimkan tanda terima donasi</li>
+              </ol>
+            </div>
+
+            <button className="bg-[#C9A646] hover:bg-[#b89438] text-white px-12 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+              Donasi Sekarang
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <div className="bg-white rounded-2xl p-12 shadow-lg">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#3E5F48] mb-6">
+              Pertanyaan tentang Donasi?
+            </h2>
+            <p className="text-xl text-gray-600 mb-8">
+              Tim kami siap membantu Anda
+            </p>
+
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="https://wa.me/628123456789"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#25D366] hover:bg-[#1da851] text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105"
+              >
+                WhatsApp Kami
+              </a>
+              <a
+                href="mailto:info@3bcreative.org"
+                className="bg-[#3E5F48] hover:bg-[#2a4233] text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105"
+              >
+                Email Kami
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-gradient-to-br from-[#3E5F48] to-[#2a4233] text-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p className="text-2xl font-semibold italic">
+            "Tiap-tiap orang harus memberikan menurut kerelaan hatinya, jangan dengan sedih hati atau karena paksaan, sebab Allah mengasihi orang yang memberi dengan sukacita."
+          </p>
+          <p className="text-xl text-gray-200 mt-4">2 Korintus 9:7</p>
+        </div>
+      </section>
+    </div>
+  );
+}
