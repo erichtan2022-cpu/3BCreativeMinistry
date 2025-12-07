@@ -71,7 +71,7 @@ export default function Navigation({ currentPage, onNavigate }: NavigationProps)
               <button
                 key={item.id}
                 onClick={() => handleNavigate(item.id)}
-                className={`text-sm font-medium transition-colors ${
+                className={`text-sm font-bold transition-colors ${
                   currentPage === item.id
                     ? 'text-[#C9A646]'
                     : 'text-gray-700 hover:text-[#3E5F48]'
@@ -133,7 +133,7 @@ export default function Navigation({ currentPage, onNavigate }: NavigationProps)
               <button
                 key={item.id}
                 onClick={() => handleNavigate(item.id)}
-                className={`block w-full text-left px-4 py-2 rounded-lg transition-colors ${
+                className={`block w-full text-left px-4 py-2 rounded-lg font-bold transition-colors ${
                   currentPage === item.id
                     ? 'bg-[#3E5F48] text-white'
                     : 'text-gray-700 hover:bg-gray-100'
