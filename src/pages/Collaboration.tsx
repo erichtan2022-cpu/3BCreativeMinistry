@@ -102,7 +102,7 @@ export default function Collaboration({ onNavigate }: CollaborationProps) {
         description="Mari berkolaborasi dengan 3B Creative Ministry untuk membangun pelayanan media yang lebih efektif. Partnership strategis untuk gereja dan komunitas Kristen."
       />
 
-      <section className="bg-gradient-to-br from-[#3E5F48] to-[#2a4233] text-white py-20">
+      <section className="bg-gradient-to-br from-[#0d5e96] to-[#0a4a72] text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Kolaborasi & Partnership</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto">
@@ -114,7 +114,7 @@ export default function Collaboration({ onNavigate }: CollaborationProps) {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#3E5F48] mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0d5e96] mb-6">
               Mengapa Berkolaborasi dengan Kami?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -128,10 +128,10 @@ export default function Collaboration({ onNavigate }: CollaborationProps) {
                 key={index}
                 className="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100"
               >
-                <div className="bg-[#3E5F48] text-white w-16 h-16 rounded-xl flex items-center justify-center mb-4">
+                <div className="bg-[#0d5e96] text-white w-16 h-16 rounded-xl flex items-center justify-center mb-4">
                   <benefit.icon className="h-8 w-8" />
                 </div>
-                <h3 className="text-xl font-semibold text-[#3E5F48] mb-2">{benefit.title}</h3>
+                <h3 className="text-xl font-semibold text-[#0d5e96] mb-2">{benefit.title}</h3>
                 <p className="text-gray-600">{benefit.description}</p>
               </div>
             ))}
@@ -139,10 +139,10 @@ export default function Collaboration({ onNavigate }: CollaborationProps) {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-br from-[#3E5F48]/5 to-[#C9A646]/5">
+      <section className="py-20 bg-gradient-to-br from-[#0d5e96]/5 to-[#ff7e28]/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#3E5F48] mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0d5e96] mb-6">
               Bentuk Kemitraan
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -156,17 +156,17 @@ export default function Collaboration({ onNavigate }: CollaborationProps) {
                 key={index}
                 className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300"
               >
-                <h3 className="text-2xl font-semibold text-[#3E5F48] mb-4">
+                <h3 className="text-2xl font-semibold text-[#0d5e96] mb-4">
                   {partnership.title}
                 </h3>
                 <p className="text-gray-600 mb-6">{partnership.description}</p>
 
                 <div className="space-y-3">
-                  <h4 className="font-semibold text-[#3E5F48]">Meliputi:</h4>
+                  <h4 className="font-semibold text-[#0d5e96]">Meliputi:</h4>
                   <ul className="space-y-2">
                     {partnership.features.map((feature, idx) => (
                       <li key={idx} className="flex items-start space-x-3">
-                        <CheckCircle className="h-5 w-5 text-[#C9A646] flex-shrink-0 mt-0.5" />
+                        <CheckCircle className="h-5 w-5 text-[#ff7e28] flex-shrink-0 mt-0.5" />
                         <span className="text-gray-700">{feature}</span>
                       </li>
                     ))}
@@ -181,7 +181,7 @@ export default function Collaboration({ onNavigate }: CollaborationProps) {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#3E5F48] mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0d5e96] mb-6">
               Apa Kata Mitra Kami
             </h2>
           </div>
@@ -190,11 +190,11 @@ export default function Collaboration({ onNavigate }: CollaborationProps) {
             {testimonials.map((testimonial, index) => (
               <div
                 key={index}
-                className="bg-gradient-to-br from-[#3E5F48] to-[#2a4233] text-white rounded-2xl p-8 shadow-lg"
+                className="bg-gradient-to-br from-[#0d5e96] to-[#0a4a72] text-white rounded-2xl p-8 shadow-lg"
               >
                 <div className="mb-6">
                   <svg
-                    className="h-8 w-8 text-[#C9A646]"
+                    className="h-8 w-8 text-[#ff7e28]"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -215,7 +215,7 @@ export default function Collaboration({ onNavigate }: CollaborationProps) {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#3E5F48] mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0d5e96] mb-6">
               Proses Kolaborasi
             </h2>
             <p className="text-lg text-gray-600 mb-12">
@@ -232,14 +232,14 @@ export default function Collaboration({ onNavigate }: CollaborationProps) {
               ].map((item, index) => (
                 <div key={index} className="relative">
                   <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
-                    <div className="bg-[#C9A646] text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3 text-xl font-bold">
+                    <div className="bg-[#ff7e28] text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3 text-xl font-bold">
                       {item.step}
                     </div>
-                    <h3 className="font-semibold text-[#3E5F48] mb-1 text-sm">{item.title}</h3>
+                    <h3 className="font-semibold text-[#0d5e96] mb-1 text-sm">{item.title}</h3>
                     <p className="text-gray-600 text-xs">{item.desc}</p>
                   </div>
                   {index < 4 && (
-                    <div className="hidden md:block absolute top-1/2 -right-3 w-6 h-0.5 bg-[#C9A646]"></div>
+                    <div className="hidden md:block absolute top-1/2 -right-3 w-6 h-0.5 bg-[#ff7e28]"></div>
                   )}
                 </div>
               ))}
@@ -248,7 +248,7 @@ export default function Collaboration({ onNavigate }: CollaborationProps) {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-br from-[#3E5F48] to-[#2a4233] text-white">
+      <section className="py-20 bg-gradient-to-br from-[#0d5e96] to-[#0a4a72] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Siap untuk Berkolaborasi?
@@ -260,13 +260,13 @@ export default function Collaboration({ onNavigate }: CollaborationProps) {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button
               onClick={() => onNavigate('contact')}
-              className="bg-[#C9A646] hover:bg-[#b89438] text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+              className="bg-[#ff7e28] hover:bg-[#e6711f] text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
             >
               Ajukan Kerjasama
             </button>
             <button
               onClick={() => onNavigate('programs')}
-              className="bg-white text-[#3E5F48] hover:bg-gray-100 px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+              className="bg-white text-[#0d5e96] hover:bg-gray-100 px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
             >
               Lihat Program Kami
             </button>

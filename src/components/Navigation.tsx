@@ -73,8 +73,8 @@ export default function Navigation({ currentPage, onNavigate }: NavigationProps)
                 onClick={() => handleNavigate(item.id)}
                 className={`text-sm font-bold transition-colors ${
                   currentPage === item.id
-                    ? 'text-[#C9A646]'
-                    : 'text-gray-700 hover:text-[#3E5F48]'
+                    ? 'text-[#ff7e28]'
+                    : 'text-gray-700 hover:text-[#0d5e96]'
                 }`}
               >
                 {item.label}
@@ -86,7 +86,7 @@ export default function Navigation({ currentPage, onNavigate }: NavigationProps)
               className={`ml-4 px-4 py-2 rounded-full font-semibold text-white transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 ${
                 isPlaying
                   ? 'bg-red-500 hover:bg-red-600'
-                  : 'bg-[#C9A646] hover:bg-[#b89438]'
+                  : 'bg-[#ff7e28] hover:bg-[#e6711f]'
               }`}
             >
               {isPlaying ? (
@@ -107,7 +107,7 @@ export default function Navigation({ currentPage, onNavigate }: NavigationProps)
             <button
               onClick={handlePlayRadio}
               className={`px-3 py-2 rounded-full text-white transition-all ${
-                isPlaying ? 'bg-red-500' : 'bg-[#C9A646]'
+                isPlaying ? 'bg-red-500' : 'bg-[#ff7e28]'
               }`}
             >
               {isPlaying ? (
@@ -135,7 +135,7 @@ export default function Navigation({ currentPage, onNavigate }: NavigationProps)
                 onClick={() => handleNavigate(item.id)}
                 className={`block w-full text-left px-4 py-2 rounded-lg font-bold transition-colors ${
                   currentPage === item.id
-                    ? 'bg-[#3E5F48] text-white'
+                    ? 'bg-[#0d5e96] text-white'
                     : 'text-gray-700 hover:bg-gray-100'
                 }`}
               >

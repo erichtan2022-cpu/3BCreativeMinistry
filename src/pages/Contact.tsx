@@ -61,7 +61,7 @@ export default function Contact() {
         description="Hubungi 3B Creative Ministry untuk konsultasi, kerjasama, atau informasi lebih lanjut tentang pelayanan media Kristen kami."
       />
 
-      <section className="bg-gradient-to-br from-[#3E5F48] to-[#2a4233] text-white py-20">
+      <section className="bg-gradient-to-br from-[#0d5e96] to-[#0a4a72] text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Hubungi Kami</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto">
@@ -78,14 +78,14 @@ export default function Contact() {
                 key={index}
                 className="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100 text-center"
               >
-                <div className="bg-[#3E5F48] text-white w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
+                <div className="bg-[#0d5e96] text-white w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
                   <info.icon className="h-8 w-8" />
                 </div>
-                <h3 className="text-xl font-semibold text-[#3E5F48] mb-2">{info.title}</h3>
+                <h3 className="text-xl font-semibold text-[#0d5e96] mb-2">{info.title}</h3>
                 {info.link ? (
                   <a
                     href={info.link}
-                    className="text-gray-600 hover:text-[#C9A646] transition-colors"
+                    className="text-gray-600 hover:text-[#ff7e28] transition-colors"
                     target={info.link.startsWith('http') ? '_blank' : undefined}
                     rel={info.link.startsWith('http') ? 'noopener noreferrer' : undefined}
                   >
@@ -100,7 +100,7 @@ export default function Contact() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-[#3E5F48] mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold text-[#0d5e96] mb-6">
                 Kirim Pesan
               </h2>
               <p className="text-lg text-gray-600 mb-8">
@@ -119,7 +119,7 @@ export default function Contact() {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#3E5F48] focus:border-transparent outline-none transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#0d5e96] focus:border-transparent outline-none transition-all"
                     placeholder="Masukkan nama Anda"
                   />
                 </div>
@@ -135,7 +135,7 @@ export default function Contact() {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#3E5F48] focus:border-transparent outline-none transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#0d5e96] focus:border-transparent outline-none transition-all"
                     placeholder="email@contoh.com"
                   />
                 </div>
@@ -151,7 +151,7 @@ export default function Contact() {
                     value={formData.phone}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#3E5F48] focus:border-transparent outline-none transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#0d5e96] focus:border-transparent outline-none transition-all"
                     placeholder="+62 812 3456 7890"
                   />
                 </div>
@@ -167,7 +167,7 @@ export default function Contact() {
                     onChange={handleChange}
                     required
                     rows={6}
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#3E5F48] focus:border-transparent outline-none transition-all resize-none"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#0d5e96] focus:border-transparent outline-none transition-all resize-none"
                     placeholder="Sampaikan pesan, pertanyaan, atau kebutuhan Anda..."
                   />
                 </div>
@@ -187,7 +187,7 @@ export default function Contact() {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full bg-[#C9A646] hover:bg-[#b89438] text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center justify-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
+                  className="w-full bg-[#ff7e28] hover:bg-[#e6711f] text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center justify-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
                 >
                   {isSubmitting ? (
                     <>
@@ -205,8 +205,8 @@ export default function Contact() {
             </div>
 
             <div className="space-y-8">
-              <div className="bg-gradient-to-br from-[#3E5F48] to-[#2a4233] rounded-2xl p-8 text-white">
-                <MessageSquare className="h-12 w-12 mb-4 text-[#C9A646]" />
+              <div className="bg-gradient-to-br from-[#0d5e96] to-[#0a4a72] rounded-2xl p-8 text-white">
+                <MessageSquare className="h-12 w-12 mb-4 text-[#ff7e28]" />
                 <h3 className="text-2xl font-bold mb-4">Jam Operasional</h3>
                 <div className="space-y-3">
                   <div className="flex justify-between items-center py-2 border-b border-white/20">
@@ -227,7 +227,7 @@ export default function Contact() {
                 </p>
               </div>
 
-              <div className="bg-gradient-to-br from-[#C9A646] to-[#b89438] rounded-2xl p-8 text-white">
+              <div className="bg-gradient-to-br from-[#ff7e28] to-[#e6711f] rounded-2xl p-8 text-white">
                 <h3 className="text-2xl font-bold mb-4">Pertanyaan Umum?</h3>
                 <p className="text-gray-100 mb-6">
                   Untuk informasi umum tentang pelayanan, program, atau kolaborasi, Anda juga dapat:
@@ -251,14 +251,14 @@ export default function Contact() {
               </div>
 
               <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100">
-                <h3 className="text-2xl font-bold text-[#3E5F48] mb-4">Connect With Us</h3>
+                <h3 className="text-2xl font-bold text-[#0d5e96] mb-4">Connect With Us</h3>
                 <p className="text-gray-600 mb-6">
                   Ikuti media sosial kami untuk update terbaru tentang pelayanan dan konten rohani
                 </p>
                 <div className="flex space-x-4">
                   <a
                     href="#"
-                    className="bg-[#3E5F48] hover:bg-[#2a4233] text-white w-12 h-12 rounded-full flex items-center justify-center transition-all"
+                    className="bg-[#0d5e96] hover:bg-[#0a4a72] text-white w-12 h-12 rounded-full flex items-center justify-center transition-all"
                     aria-label="Instagram"
                   >
                     <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
@@ -267,7 +267,7 @@ export default function Contact() {
                   </a>
                   <a
                     href="#"
-                    className="bg-[#3E5F48] hover:bg-[#2a4233] text-white w-12 h-12 rounded-full flex items-center justify-center transition-all"
+                    className="bg-[#0d5e96] hover:bg-[#0a4a72] text-white w-12 h-12 rounded-full flex items-center justify-center transition-all"
                     aria-label="YouTube"
                   >
                     <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
@@ -276,7 +276,7 @@ export default function Contact() {
                   </a>
                   <a
                     href="#"
-                    className="bg-[#3E5F48] hover:bg-[#2a4233] text-white w-12 h-12 rounded-full flex items-center justify-center transition-all"
+                    className="bg-[#0d5e96] hover:bg-[#0a4a72] text-white w-12 h-12 rounded-full flex items-center justify-center transition-all"
                     aria-label="Facebook"
                   >
                     <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">

@@ -116,7 +116,7 @@ export default function Media() {
         description="Jelajahi koleksi podcast, video, dan renungan rohani dari 3B Creative Ministry. Dengarkan radio streaming 24/7 dengan konten yang membangun iman."
       />
 
-      <section className="bg-gradient-to-br from-[#3E5F48] to-[#2a4233] text-white py-20">
+      <section className="bg-gradient-to-br from-[#0d5e96] to-[#0a4a72] text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Media & Konten</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto">
@@ -134,7 +134,7 @@ export default function Media() {
                 onClick={() => setActiveTab(tab.id)}
                 className={`flex items-center space-x-2 px-6 py-3 rounded-full font-semibold transition-all duration-300 ${
                   activeTab === tab.id
-                    ? 'bg-[#3E5F48] text-white shadow-lg'
+                    ? 'bg-[#0d5e96] text-white shadow-lg'
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                 }`}
               >
@@ -149,7 +149,7 @@ export default function Media() {
       {activeTab === 'podcast' && (
         <section className="py-20 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-[#3E5F48] mb-12 text-center">
+            <h2 className="text-3xl font-bold text-[#0d5e96] mb-12 text-center">
               Podcast Terbaru
             </h2>
 
@@ -160,11 +160,11 @@ export default function Media() {
                   className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
                 >
                   <div className="flex items-start space-x-4">
-                    <div className="bg-[#C9A646] text-white p-4 rounded-xl">
+                    <div className="bg-[#ff7e28] text-white p-4 rounded-xl">
                       <Headphones className="h-8 w-8" />
                     </div>
                     <div className="flex-1">
-                      <h3 className="text-xl font-semibold text-[#3E5F48] mb-2">
+                      <h3 className="text-xl font-semibold text-[#0d5e96] mb-2">
                         {podcast.title}
                       </h3>
                       <p className="text-gray-600 mb-3">{podcast.description}</p>
@@ -176,7 +176,7 @@ export default function Media() {
                           </span>
                           <span>{podcast.duration}</span>
                         </div>
-                        <button className="bg-[#3E5F48] hover:bg-[#2a4233] text-white p-2 rounded-full transition-colors">
+                        <button className="bg-[#0d5e96] hover:bg-[#0a4a72] text-white p-2 rounded-full transition-colors">
                           <Play className="h-5 w-5" fill="currentColor" />
                         </button>
                       </div>
@@ -192,7 +192,7 @@ export default function Media() {
       {activeTab === 'video' && (
         <section className="py-20 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-[#3E5F48] mb-12 text-center">
+            <h2 className="text-3xl font-bold text-[#0d5e96] mb-12 text-center">
               Video Terbaru
             </h2>
 
@@ -202,16 +202,16 @@ export default function Media() {
                   key={video.id}
                   className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
                 >
-                  <div className="relative bg-gradient-to-br from-[#3E5F48] to-[#2a4233] h-48 flex items-center justify-center">
+                  <div className="relative bg-gradient-to-br from-[#0d5e96] to-[#0a4a72] h-48 flex items-center justify-center">
                     <Video className="h-16 w-16 text-white/50" />
                     <button className="absolute inset-0 flex items-center justify-center bg-black/30 hover:bg-black/40 transition-colors">
-                      <div className="bg-[#C9A646] text-white p-4 rounded-full">
+                      <div className="bg-[#ff7e28] text-white p-4 rounded-full">
                         <Play className="h-8 w-8" fill="currentColor" />
                       </div>
                     </button>
                   </div>
                   <div className="p-6">
-                    <h3 className="text-xl font-semibold text-[#3E5F48] mb-2">
+                    <h3 className="text-xl font-semibold text-[#0d5e96] mb-2">
                       {video.title}
                     </h3>
                     <p className="text-gray-600 mb-3">{video.description}</p>
@@ -233,7 +233,7 @@ export default function Media() {
       {activeTab === 'article' && (
         <section className="py-20 bg-gray-50">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-[#3E5F48] mb-12 text-center">
+            <h2 className="text-3xl font-bold text-[#0d5e96] mb-12 text-center">
               Renungan & Artikel
             </h2>
 
@@ -244,11 +244,11 @@ export default function Media() {
                   className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300"
                 >
                   <div className="flex items-start space-x-4">
-                    <div className="bg-[#C9A646] text-white p-4 rounded-xl">
+                    <div className="bg-[#ff7e28] text-white p-4 rounded-xl">
                       <BookOpen className="h-8 w-8" />
                     </div>
                     <div className="flex-1">
-                      <h3 className="text-2xl font-semibold text-[#3E5F48] mb-3">
+                      <h3 className="text-2xl font-semibold text-[#0d5e96] mb-3">
                         {article.title}
                       </h3>
                       <p className="text-gray-600 mb-4 leading-relaxed">
@@ -262,7 +262,7 @@ export default function Media() {
                           </span>
                           <span>{article.readTime}</span>
                         </div>
-                        <button className="text-[#3E5F48] hover:text-[#2a4233] font-semibold">
+                        <button className="text-[#0d5e96] hover:text-[#0a4a72] font-semibold">
                           Baca Selengkapnya →
                         </button>
                       </div>
@@ -275,7 +275,7 @@ export default function Media() {
         </section>
       )}
 
-      <section className="py-20 bg-gradient-to-br from-[#3E5F48] to-[#2a4233] text-white">
+      <section className="py-20 bg-gradient-to-br from-[#0d5e96] to-[#0a4a72] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
             Radio Streaming 3B Creative

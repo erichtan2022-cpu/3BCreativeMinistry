@@ -21,13 +21,13 @@ export default function Footer({ onNavigate }: FooterProps) {
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-[#C9A646]">Menu</h3>
+            <h3 className="text-lg font-semibold mb-4 text-[#28763a]">Menu</h3>
             <ul className="space-y-2">
               {['Beranda', 'Profil', 'Program', 'Media'].map((item, index) => (
                 <li key={item}>
                   <button
                     onClick={() => onNavigate(['home', 'profile', 'programs', 'media'][index])}
-                    className="text-gray-400 hover:text-[#C9A646] transition-colors text-sm"
+                    className="text-gray-400 hover:text-[#28763a] transition-colors text-sm"
                   >
                     {item}
                   </button>
@@ -37,13 +37,13 @@ export default function Footer({ onNavigate }: FooterProps) {
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-[#C9A646]">Pelayanan</h3>
+            <h3 className="text-lg font-semibold mb-4 text-[#28763a]">Pelayanan</h3>
             <ul className="space-y-2">
               {['Kolaborasi', 'Donasi', 'Kontak'].map((item, index) => (
                 <li key={item}>
                   <button
                     onClick={() => onNavigate(['collaboration', 'donation', 'contact'][index])}
-                    className="text-gray-400 hover:text-[#C9A646] transition-colors text-sm"
+                    className="text-gray-400 hover:text-[#28763a] transition-colors text-sm"
                   >
                     {item}
                   </button>
@@ -53,7 +53,7 @@ export default function Footer({ onNavigate }: FooterProps) {
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-[#C9A646]">Kontak</h3>
+            <h3 className="text-lg font-semibold mb-4 text-[#28763a]">Kontak</h3>
             <ul className="space-y-3">
               <li className="flex items-center space-x-2 text-gray-400 text-sm">
                 <Mail className="h-4 w-4" />

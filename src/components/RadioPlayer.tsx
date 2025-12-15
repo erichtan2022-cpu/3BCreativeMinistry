@@ -59,12 +59,12 @@ export default function RadioPlayer({
   };
 
   return (
-    <div className="bg-gradient-to-r from-[#3E5F48] to-[#2a4233] rounded-2xl shadow-lg p-6 text-white">
+    <div className="bg-gradient-to-r from-[#0d5e96] to-[#0a4a72] rounded-2xl shadow-lg p-6 text-white">
       <div className="flex items-center justify-between">
         <div className="flex items-center space-x-4">
           <button
             onClick={isPlaying ? handlePause : handlePlay}
-            className="bg-[#C9A646] hover:bg-[#b89438] text-white rounded-full p-4 transition-all duration-300 transform hover:scale-105 shadow-lg"
+            className="bg-[#ff7e28] hover:bg-[#e6711f] text-white rounded-full p-4 transition-all duration-300 transform hover:scale-105 shadow-lg"
           >
             {isPlaying ? (
               <Pause className="h-6 w-6" fill="currentColor" />
@@ -90,7 +90,7 @@ export default function RadioPlayer({
             step="0.1"
             value={volume}
             onChange={handleVolumeChange}
-            className="w-24 accent-[#C9A646]"
+            className="w-24 accent-[#ff7e28]"
           />
         </div>
       </div>
@@ -101,7 +101,7 @@ export default function RadioPlayer({
             {[...Array(5)].map((_, i) => (
               <div
                 key={i}
-                className="w-1 bg-[#C9A646] rounded-full animate-pulse"
+                className="w-1 bg-[#ff7e28] rounded-full animate-pulse"
                 style={{
                   height: `${Math.random() * 20 + 10}px`,
                   animationDelay: `${i * 0.1}s`,

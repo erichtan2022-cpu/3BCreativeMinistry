@@ -61,7 +61,7 @@ export default function Profile() {
         description="Mengenal lebih dalam tentang 3B Creative Ministry: pelayanan media Kristen yang berakar, bertumbuh, dan berbuah untuk memberdayakan gereja dan generasi muda."
       />
 
-      <section className="relative bg-gradient-to-br from-[#3E5F48] to-[#2a4233] text-white py-20 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-[#0d5e96] to-[#0a4a72] text-white py-20 overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSA2MCAwIEwgMCAwIEwgMCA2MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIwLjUiLz48L3BhdHRlcm4+PC9kZWZzPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JpZCkiLz48L3N2Zz4=')] bg-repeat opacity-10"></div>
         </div>
@@ -76,17 +76,17 @@ export default function Profile() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#3E5F48] mb-8 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0d5e96] mb-8 text-center">
               Tentang Kami
             </h2>
 
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                <span className="font-semibold text-[#3E5F48]">3B Creative Ministry</span> adalah sebuah pelayanan media Kristen yang hadir untuk memberdayakan gereja, komunitas, dan generasi muda melalui kreativitas, teknologi, dan konten yang membangun iman.
+                <span className="font-semibold text-[#0d5e96]">3B Creative Ministry</span> adalah sebuah pelayanan media Kristen yang hadir untuk memberdayakan gereja, komunitas, dan generasi muda melalui kreativitas, teknologi, dan konten yang membangun iman.
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                Nama <span className="font-semibold text-[#C9A646]">"3B"</span> diambil dari prinsip rohani: <span className="font-semibold">Berakar, Bertumbuh, Berbuah</span>.
+                Nama <span className="font-semibold text-[#ff7e28]">"3B"</span> diambil dari prinsip rohani: <span className="font-semibold">Berakar, Bertumbuh, Berbuah</span>.
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
@@ -97,15 +97,15 @@ export default function Profile() {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-br from-[#3E5F48]/5 to-[#C9A646]/5">
+      <section className="py-20 bg-gradient-to-br from-[#0d5e96]/5 to-[#ff7e28]/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div className="bg-white rounded-2xl shadow-lg p-8">
               <div className="flex items-center space-x-3 mb-6">
-                <div className="bg-[#C9A646] text-white p-3 rounded-lg">
+                <div className="bg-[#ff7e28] text-white p-3 rounded-lg">
                   <Target className="h-8 w-8" />
                 </div>
-                <h2 className="text-3xl font-bold text-[#3E5F48]">Visi</h2>
+                <h2 className="text-3xl font-bold text-[#0d5e96]">Visi</h2>
               </div>
 
               <p className="text-lg text-gray-700 leading-relaxed italic">
@@ -115,16 +115,16 @@ export default function Profile() {
 
             <div className="bg-white rounded-2xl shadow-lg p-8">
               <div className="flex items-center space-x-3 mb-6">
-                <div className="bg-[#3E5F48] text-white p-3 rounded-lg">
+                <div className="bg-[#0d5e96] text-white p-3 rounded-lg">
                   <Flag className="h-8 w-8" />
                 </div>
-                <h2 className="text-3xl font-bold text-[#3E5F48]">Misi</h2>
+                <h2 className="text-3xl font-bold text-[#0d5e96]">Misi</h2>
               </div>
 
               <ul className="space-y-4">
                 {missions.map((mission, index) => (
                   <li key={index} className="flex items-start space-x-3">
-                    <span className="bg-[#C9A646] text-white rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1 text-sm font-semibold">
+                    <span className="bg-[#ff7e28] text-white rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1 text-sm font-semibold">
                       {index + 1}
                     </span>
                     <span className="text-gray-700 leading-relaxed">{mission}</span>
@@ -138,7 +138,7 @@ export default function Profile() {
 
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-[#3E5F48] mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-[#0d5e96] mb-12">
             Nilai Inti
           </h2>
 
@@ -148,10 +148,10 @@ export default function Profile() {
                 key={index}
                 className="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100"
               >
-                <div className="bg-[#3E5F48] text-white w-16 h-16 rounded-xl flex items-center justify-center mb-4">
+                <div className="bg-[#0d5e96] text-white w-16 h-16 rounded-xl flex items-center justify-center mb-4">
                   <value.icon className="h-8 w-8" />
                 </div>
-                <h3 className="text-2xl font-semibold text-[#3E5F48] mb-2">{value.title}</h3>
+                <h3 className="text-2xl font-semibold text-[#0d5e96] mb-2">{value.title}</h3>
                 <p className="text-gray-600">{value.description}</p>
               </div>
             ))}
@@ -159,10 +159,10 @@ export default function Profile() {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-br from-[#3E5F48] to-[#2a4233] text-white relative overflow-hidden">
+      <section className="py-20 bg-gradient-to-br from-[#0d5e96] to-[#0a4a72] text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-10 left-10 w-72 h-72 bg-[#C9A646] rounded-full blur-3xl"></div>
-          <div className="absolute bottom-10 right-10 w-96 h-96 bg-[#C9A646] rounded-full blur-3xl"></div>
+          <div className="absolute top-10 left-10 w-72 h-72 bg-[#ff7e28] rounded-full blur-3xl"></div>
+          <div className="absolute bottom-10 right-10 w-96 h-96 bg-[#ff7e28] rounded-full blur-3xl"></div>
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
@@ -191,7 +191,7 @@ export default function Profile() {
 
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#3E5F48] mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#0d5e96] mb-6">
             Mari Bergabung dalam Pelayanan
           </h2>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
@@ -203,13 +203,13 @@ export default function Profile() {
               href="https://wa.me/6288808068106"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#C9A646] hover:bg-[#b89438] text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105"
+              className="bg-[#ff7e28] hover:bg-[#e6711f] text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105"
             >
               Hubungi Kami
             </a>
             <a
               href="#"
-              className="bg-[#3E5F48] hover:bg-[#2a4233] text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105"
+              className="bg-[#0d5e96] hover:bg-[#0a4a72] text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105"
             >
               Lihat Program
             </a>

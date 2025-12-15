@@ -15,10 +15,10 @@ export default function Home({ onNavigate, onPlayRadio }: HomeProps) {
         description="Memberdayakan Gereja & Generasi Melalui Kreativitas dan Media Kristen. Berakar, Bertumbuh, Berbuah dalam pelayanan."
       />
 
-      <section className="relative bg-gradient-to-br from-[#3E5F48] via-[#2a4233] to-[#1a2a1f] text-white pt-32 pb-20 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-[#0d5e96] via-[#0a4a72] to-[#073651] text-white pt-32 pb-20 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-20 left-10 w-72 h-72 bg-[#C9A646] rounded-full blur-3xl"></div>
-          <div className="absolute bottom-20 right-10 w-96 h-96 bg-[#C9A646] rounded-full blur-3xl"></div>
+          <div className="absolute top-20 left-10 w-72 h-72 bg-[#ff7e28] rounded-full blur-3xl"></div>
+          <div className="absolute bottom-20 right-10 w-96 h-96 bg-[#ff7e28] rounded-full blur-3xl"></div>
         </div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -33,20 +33,20 @@ export default function Home({ onNavigate, onPlayRadio }: HomeProps) {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fadeIn">
             <button
               onClick={onPlayRadio}
-              className="bg-[#C9A646] hover:bg-[#b89438] text-white px-8 py-4 rounded-full font-semibold text-lg flex items-center space-x-2 transition-all duration-300 transform hover:scale-105 shadow-lg"
+              className="bg-[#ff7e28] hover:bg-[#e6711f] text-white px-8 py-4 rounded-full font-semibold text-lg flex items-center space-x-2 transition-all duration-300 transform hover:scale-105 shadow-lg"
             >
               <Play className="h-5 w-5" fill="currentColor" />
               <span>Dengarkan Radio</span>
             </button>
             <button
               onClick={() => onNavigate('programs')}
-              className="bg-white text-[#3E5F48] hover:bg-gray-100 px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+              className="bg-white text-[#0d5e96] hover:bg-gray-100 px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
             >
               Program Pelayanan
             </button>
             <button
               onClick={() => onNavigate('donation')}
-              className="border-2 border-white text-white hover:bg-white hover:text-[#3E5F48] px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105"
+              className="border-2 border-white text-white hover:bg-white hover:text-[#0d5e96] px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105"
             >
               Donasi Sekarang
             </button>
@@ -59,34 +59,34 @@ export default function Home({ onNavigate, onPlayRadio }: HomeProps) {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <button
               onClick={() => onNavigate('berakar')}
-              className="text-center p-8 rounded-2xl bg-gradient-to-br from-[#3E5F48]/5 to-[#C9A646]/5 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer"
+              className="text-center p-8 rounded-2xl bg-gradient-to-br from-[#0d5e96]/5 to-[#ff7e28]/5 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer"
             >
-              <div className="bg-[#3E5F48] text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="bg-[#0d5e96] text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Radio className="h-8 w-8" />
               </div>
-              <h3 className="text-2xl font-bold text-[#3E5F48] mb-2">Berakar</h3>
+              <h3 className="text-2xl font-bold text-[#0d5e96] mb-2">Berakar</h3>
               <p className="text-gray-600">Kuat dalam iman dan firman Tuhan</p>
             </button>
 
             <button
               onClick={() => onNavigate('bertumbuh')}
-              className="text-center p-8 rounded-2xl bg-gradient-to-br from-[#3E5F48]/5 to-[#C9A646]/5 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer"
+              className="text-center p-8 rounded-2xl bg-gradient-to-br from-[#0d5e96]/5 to-[#ff7e28]/5 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer"
             >
-              <div className="bg-[#C9A646] text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="bg-[#ff7e28] text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <TrendingUp className="h-8 w-8" />
               </div>
-              <h3 className="text-2xl font-bold text-[#3E5F48] mb-2">Bertumbuh</h3>
+              <h3 className="text-2xl font-bold text-[#0d5e96] mb-2">Bertumbuh</h3>
               <p className="text-gray-600">Berkembang dalam kreativitas dan pelayanan</p>
             </button>
 
             <button
               onClick={() => onNavigate('berbuah')}
-              className="text-center p-8 rounded-2xl bg-gradient-to-br from-[#3E5F48]/5 to-[#C9A646]/5 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer"
+              className="text-center p-8 rounded-2xl bg-gradient-to-br from-[#0d5e96]/5 to-[#ff7e28]/5 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer"
             >
-              <div className="bg-[#3E5F48] text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="bg-[#0d5e96] text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Heart className="h-8 w-8" />
               </div>
-              <h3 className="text-2xl font-bold text-[#3E5F48] mb-2">Berbuah</h3>
+              <h3 className="text-2xl font-bold text-[#0d5e96] mb-2">Berbuah</h3>
               <p className="text-gray-600">Memberkati bangsa melalui media</p>
             </button>
           </div>
@@ -97,7 +97,7 @@ export default function Home({ onNavigate, onPlayRadio }: HomeProps) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-[#3E5F48] mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold text-[#0d5e96] mb-6">
                 Tentang 3B Creative Ministry
               </h2>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
@@ -107,21 +107,21 @@ export default function Home({ onNavigate, onPlayRadio }: HomeProps) {
                 Nama "3B" diambil dari prinsip rohani:{' '}
                 <button
                   onClick={() => onNavigate('berakar')}
-                  className="font-semibold text-[#3E5F48] hover:text-[#C9A646] transition-colors underline"
+                  className="font-semibold text-[#0d5e96] hover:text-[#ff7e28] transition-colors underline"
                 >
                   Berakar
                 </button>
                 ,{' '}
                 <button
                   onClick={() => onNavigate('bertumbuh')}
-                  className="font-semibold text-[#3E5F48] hover:text-[#C9A646] transition-colors underline"
+                  className="font-semibold text-[#0d5e96] hover:text-[#ff7e28] transition-colors underline"
                 >
                   Bertumbuh
                 </button>
                 ,{' '}
                 <button
                   onClick={() => onNavigate('berbuah')}
-                  className="font-semibold text-[#3E5F48] hover:text-[#C9A646] transition-colors underline"
+                  className="font-semibold text-[#0d5e96] hover:text-[#ff7e28] transition-colors underline"
                 >
                   Berbuah
                 </button>
@@ -129,7 +129,7 @@ export default function Home({ onNavigate, onPlayRadio }: HomeProps) {
               </p>
               <button
                 onClick={() => onNavigate('profile')}
-                className="bg-[#C9A646] hover:bg-[#b89438] text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105"
+                className="bg-[#ff7e28] hover:bg-[#e6711f] text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105"
               >
                 Selengkapnya
               </button>
@@ -138,21 +138,21 @@ export default function Home({ onNavigate, onPlayRadio }: HomeProps) {
             <div className="bg-white rounded-2xl shadow-xl p-8">
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
-                  <div className="bg-[#C9A646] text-white p-3 rounded-lg">
+                  <div className="bg-[#ff7e28] text-white p-3 rounded-lg">
                     <Lightbulb className="h-6 w-6" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-[#3E5F48] text-lg mb-1">Visi</h3>
+                    <h3 className="font-semibold text-[#0d5e96] text-lg mb-1">Visi</h3>
                     <p className="text-gray-600">Menjadi pelayanan media Kristen yang mengakar dalam Kristus, bertumbuh dalam kreativitas, dan berbuah bagi bangsa</p>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="bg-[#3E5F48] text-white p-3 rounded-lg">
+                  <div className="bg-[#0d5e96] text-white p-3 rounded-lg">
                     <Users className="h-6 w-6" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-[#3E5F48] text-lg mb-1">Misi</h3>
+                    <h3 className="font-semibold text-[#0d5e96] text-lg mb-1">Misi</h3>
                     <p className="text-gray-600">Menghadirkan konten rohani berkualitas untuk memberdayakan gereja dan generasi muda</p>
                   </div>
                 </div>
@@ -164,7 +164,7 @@ export default function Home({ onNavigate, onPlayRadio }: HomeProps) {
 
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-[#3E5F48] mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-[#0d5e96] mb-12">
             Program Pelayanan
           </h2>
 
@@ -195,10 +195,10 @@ export default function Home({ onNavigate, onPlayRadio }: HomeProps) {
                 key={index}
                 className="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-6 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100"
               >
-                <div className="bg-[#3E5F48] text-white w-14 h-14 rounded-xl flex items-center justify-center mb-4">
+                <div className="bg-[#0d5e96] text-white w-14 h-14 rounded-xl flex items-center justify-center mb-4">
                   <program.icon className="h-7 w-7" />
                 </div>
-                <h3 className="text-xl font-semibold text-[#3E5F48] mb-2">{program.title}</h3>
+                <h3 className="text-xl font-semibold text-[#0d5e96] mb-2">{program.title}</h3>
                 <p className="text-gray-600">{program.description}</p>
               </div>
             ))}
@@ -207,7 +207,7 @@ export default function Home({ onNavigate, onPlayRadio }: HomeProps) {
           <div className="text-center mt-12">
             <button
               onClick={() => onNavigate('programs')}
-              className="bg-[#3E5F48] hover:bg-[#2a4233] text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105"
+              className="bg-[#0d5e96] hover:bg-[#0a4a72] text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105"
             >
               Lihat Semua Program
             </button>
@@ -215,7 +215,7 @@ export default function Home({ onNavigate, onPlayRadio }: HomeProps) {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-br from-[#3E5F48] to-[#2a4233] text-white">
+      <section className="py-20 bg-gradient-to-br from-[#0d5e96] to-[#0a4a72] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
             Radio Streaming 3B Creative
@@ -232,7 +232,7 @@ export default function Home({ onNavigate, onPlayRadio }: HomeProps) {
 
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#3E5F48] mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#0d5e96] mb-6">
             Jadilah Bagian dari Pekerjaan Tuhan
           </h2>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
@@ -241,7 +241,7 @@ export default function Home({ onNavigate, onPlayRadio }: HomeProps) {
 
           <button
             onClick={() => onNavigate('donation')}
-            className="bg-[#C9A646] hover:bg-[#b89438] text-white px-12 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+            className="bg-[#ff7e28] hover:bg-[#e6711f] text-white px-12 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
           >
             Donasi Sekarang
           </button>

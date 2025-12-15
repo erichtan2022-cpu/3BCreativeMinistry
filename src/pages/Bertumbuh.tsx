@@ -18,7 +18,7 @@ export default function Bertumbuh() {
         description="Program Materi Pembelajaran dan Komunitas untuk pengembangan diri dan pertumbuhan bersama dalam lingkungan yang sehat dan suportif."
       />
 
-      <section className="relative bg-gradient-to-br from-[#C9A646] via-[#b89438] to-[#9d7c2e] text-white pt-32 pb-20 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-[#ff7e28] via-[#e6711f] to-[#cc6620] text-white pt-32 pb-20 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-20 left-10 w-72 h-72 bg-white rounded-full blur-3xl"></div>
           <div className="absolute bottom-20 right-10 w-96 h-96 bg-white rounded-full blur-3xl"></div>
@@ -40,25 +40,25 @@ export default function Bertumbuh() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-            <div className="p-8 rounded-2xl bg-gradient-to-br from-[#C9A646]/5 to-[#3E5F48]/5 hover:shadow-xl transition-shadow duration-300">
-              <div className="bg-[#C9A646] text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="p-8 rounded-2xl bg-gradient-to-br from-[#ff7e28]/5 to-[#0d5e96]/5 hover:shadow-xl transition-shadow duration-300">
+              <div className="bg-[#ff7e28] text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <BookMarked className="h-8 w-8" />
               </div>
-              <h3 className="text-xl font-semibold text-[#3E5F48] text-center mb-3">Materi Berkualitas</h3>
+              <h3 className="text-xl font-semibold text-[#0d5e96] text-center mb-3">Materi Berkualitas</h3>
               <p className="text-gray-600 text-center">Pembelajaran sistematis dan terstruktur yang dirancang untuk meningkatkan pemahaman dan keterampilan secara progresif</p>
             </div>
 
-            <div className="p-8 rounded-2xl bg-gradient-to-br from-[#C9A646]/5 to-[#3E5F48]/5 hover:shadow-xl transition-shadow duration-300">
-              <div className="bg-[#3E5F48] text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="p-8 rounded-2xl bg-gradient-to-br from-[#ff7e28]/5 to-[#0d5e96]/5 hover:shadow-xl transition-shadow duration-300">
+              <div className="bg-[#0d5e96] text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Users className="h-8 w-8" />
               </div>
-              <h3 className="text-xl font-semibold text-[#3E5F48] text-center mb-3">Komunitas Suportif</h3>
+              <h3 className="text-xl font-semibold text-[#0d5e96] text-center mb-3">Komunitas Suportif</h3>
               <p className="text-gray-600 text-center">Bergabung dengan komunitas yang saling mendukung, berbagi pengalaman, dan tumbuh bersama dalam perjalanan spiritual</p>
             </div>
           </div>
 
           <div className="mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#3E5F48] mb-6 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0d5e96] mb-6 text-center">
               Tentang Program Bertumbuh
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-4 max-w-3xl mx-auto">
@@ -76,7 +76,7 @@ export default function Bertumbuh() {
 
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#3E5F48] mb-12 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#0d5e96] mb-12 text-center">
             Galeri Pembelajaran & Komunitas
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -101,7 +101,7 @@ export default function Bertumbuh() {
 
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#3E5F48] mb-12 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#0d5e96] mb-12 text-center">
             Program Pembelajaran
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -131,12 +131,12 @@ export default function Bertumbuh() {
                 key={index}
                 className="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-8 border border-gray-100 hover:shadow-xl transition-all duration-300"
               >
-                <h3 className="text-2xl font-semibold text-[#3E5F48] mb-3">{program.title}</h3>
+                <h3 className="text-2xl font-semibold text-[#0d5e96] mb-3">{program.title}</h3>
                 <p className="text-gray-600 mb-6">{program.description}</p>
                 <div className="space-y-2">
                   {program.features.map((feature, idx) => (
                     <div key={idx} className="flex items-center space-x-3">
-                      <div className="w-2 h-2 bg-[#C9A646] rounded-full"></div>
+                      <div className="w-2 h-2 bg-[#ff7e28] rounded-full"></div>
                       <span className="text-gray-700">{feature}</span>
                     </div>
                   ))}
@@ -147,7 +147,7 @@ export default function Bertumbuh() {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-br from-[#3E5F48] to-[#2a4233]">
+      <section className="py-20 bg-gradient-to-br from-[#0d5e96] to-[#0a4a72]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-center">
             Mengapa Bergabung?
@@ -176,7 +176,7 @@ export default function Bertumbuh() {
               }
             ].map((item, index) => (
               <div key={index} className="text-center text-white">
-                <div className="bg-[#C9A646] text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="bg-[#ff7e28] text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                   <item.icon className="h-8 w-8" />
                 </div>
                 <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
@@ -189,17 +189,17 @@ export default function Bertumbuh() {
 
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#3E5F48] mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#0d5e96] mb-6">
             Mulai Perjalanan Pertumbuhan Anda
           </h2>
           <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
             Bergabunglah dengan ratusan peserta yang telah merasakan transformasi melalui pembelajaran dan komunitas kami
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="bg-[#C9A646] hover:bg-[#b89438] text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105">
+            <button className="bg-[#ff7e28] hover:bg-[#e6711f] text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105">
               Daftar Program
             </button>
-            <button className="border-2 border-[#3E5F48] text-[#3E5F48] hover:bg-[#3E5F48] hover:text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105">
+            <button className="border-2 border-[#0d5e96] text-[#0d5e96] hover:bg-[#0d5e96] hover:text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105">
               Lihat Kurikulum
             </button>
           </div>

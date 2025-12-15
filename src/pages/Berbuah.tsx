@@ -39,7 +39,7 @@ export default function Berbuah() {
         description="Kisah nyata tentang transformasi hidup, pelayanan yang berdampak, dan bagaimana Anda bisa berkontribusi dalam misi kami."
       />
 
-      <section className="relative bg-gradient-to-br from-[#3E5F48] via-[#2a4233] to-[#1f3228] text-white pt-32 pb-20 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-[#0d5e96] via-[#0a4a72] to-[#073651] text-white pt-32 pb-20 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-20 left-10 w-72 h-72 bg-white rounded-full blur-3xl"></div>
           <div className="absolute bottom-20 right-10 w-96 h-96 bg-white rounded-full blur-3xl"></div>
@@ -61,7 +61,7 @@ export default function Berbuah() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#3E5F48] mb-6 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0d5e96] mb-6 text-center">
               Tentang Program Berbuah
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-4 max-w-3xl mx-auto">
@@ -79,7 +79,7 @@ export default function Berbuah() {
 
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#3E5F48] mb-12 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#0d5e96] mb-12 text-center">
             Galeri Kesaksian & Pelayanan
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -104,7 +104,7 @@ export default function Berbuah() {
 
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#3E5F48] mb-12 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#0d5e96] mb-12 text-center">
             Kesaksian Komunitas
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -120,13 +120,13 @@ export default function Berbuah() {
                     className="w-14 h-14 rounded-full object-cover mr-4"
                   />
                   <div>
-                    <h3 className="font-semibold text-[#3E5F48]">{testimony.name}</h3>
+                    <h3 className="font-semibold text-[#0d5e96]">{testimony.name}</h3>
                     <p className="text-sm text-gray-600">{testimony.role}</p>
                   </div>
                 </div>
                 <div className="flex items-start mb-4">
                   {[...Array(5)].map((_, i) => (
-                    <span key={i} className="text-[#C9A646]">★</span>
+                    <span key={i} className="text-[#ff7e28]">★</span>
                   ))}
                 </div>
                 <p className="text-gray-600 italic">"{testimony.content}"</p>
@@ -136,7 +136,7 @@ export default function Berbuah() {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-br from-[#C9A646] via-[#b89438] to-[#9d7c2e] text-white">
+      <section className="py-20 bg-gradient-to-br from-[#ff7e28] via-[#e6711f] to-[#cc6620] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
             Bentuk-Bentuk Pelayanan
@@ -179,7 +179,7 @@ export default function Berbuah() {
 
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#3E5F48] mb-12 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#0d5e96] mb-12 text-center">
             Bagaimana Donasi Anda Berdampak
           </h2>
           <div className="space-y-8">
@@ -212,15 +212,15 @@ export default function Berbuah() {
             ].map((item, index) => (
               <div
                 key={index}
-                className="flex flex-col md:flex-row gap-6 items-start md:items-center p-6 rounded-xl bg-gradient-to-r from-[#C9A646]/5 to-[#3E5F48]/5 border border-gray-200 hover:border-[#C9A646] transition-all duration-300"
+                className="flex flex-col md:flex-row gap-6 items-start md:items-center p-6 rounded-xl bg-gradient-to-r from-[#ff7e28]/5 to-[#0d5e96]/5 border border-gray-200 hover:border-[#ff7e28] transition-all duration-300"
               >
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-16 w-16 rounded-full bg-[#C9A646] text-white font-bold text-xl">
+                  <div className="flex items-center justify-center h-16 w-16 rounded-full bg-[#ff7e28] text-white font-bold text-xl">
                     {item.percentage}
                   </div>
                 </div>
                 <div className="flex-grow">
-                  <h3 className="text-xl font-semibold text-[#3E5F48] mb-1">{item.title}</h3>
+                  <h3 className="text-xl font-semibold text-[#0d5e96] mb-1">{item.title}</h3>
                   <p className="text-gray-600">{item.description}</p>
                 </div>
               </div>
@@ -229,7 +229,7 @@ export default function Berbuah() {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-br from-[#3E5F48] to-[#2a4233]">
+      <section className="py-20 bg-gradient-to-br from-[#0d5e96] to-[#0a4a72]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Jadilah Bagian dari Perubahan
@@ -238,10 +238,10 @@ export default function Berbuah() {
             Setiap donasi, sekecil apapun, memiliki dampak nyata dalam kehidupan ribuan orang. Bersama-sama kita membangun komunitas yang kuat, pembelajaran yang bermakna, dan pelayanan yang mengubah dunia.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="bg-[#C9A646] hover:bg-[#b89438] text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105">
+            <button className="bg-[#ff7e28] hover:bg-[#e6711f] text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105">
               Berdonasi Sekarang
             </button>
-            <button className="border-2 border-[#C9A646] text-[#C9A646] hover:bg-[#C9A646] hover:text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105">
+            <button className="border-2 border-[#ff7e28] text-[#ff7e28] hover:bg-[#ff7e28] hover:text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105">
               Jadilah Relawan
             </button>
           </div>
@@ -250,7 +250,7 @@ export default function Berbuah() {
 
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#3E5F48] mb-12 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#0d5e96] mb-12 text-center">
             Statistik Dampak
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
@@ -260,8 +260,8 @@ export default function Berbuah() {
               { number: '50+', label: 'Program Pelayanan' },
               { number: '100K+', label: 'Kehidupan Tersentuh' }
             ].map((stat, index) => (
-              <div key={index} className="text-center p-6 rounded-xl bg-gradient-to-br from-[#C9A646]/10 to-[#3E5F48]/10 border border-gray-200">
-                <div className="text-3xl md:text-4xl font-bold text-[#C9A646] mb-2">{stat.number}</div>
+              <div key={index} className="text-center p-6 rounded-xl bg-gradient-to-br from-[#ff7e28]/10 to-[#0d5e96]/10 border border-gray-200">
+                <div className="text-3xl md:text-4xl font-bold text-[#ff7e28] mb-2">{stat.number}</div>
                 <p className="text-gray-600 font-semibold">{stat.label}</p>
               </div>
             ))}
