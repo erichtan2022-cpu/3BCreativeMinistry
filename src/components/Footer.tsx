@@ -11,7 +11,7 @@ export default function Footer({ onNavigate }: FooterProps) {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <img
-              src="https://i.imgur.com/rxC6nCV.png"
+              src="https://i.imgur.com/Tk5H4Is.jpeg"
               alt="3B Creative Ministry Logo"
               className="h-12 w-auto object-contain mb-4 brightness-0 invert"
             />

@@ -60,7 +60,7 @@ export default function Navigation({ currentPage, onNavigate }: NavigationProps)
             onClick={() => handleNavigate('home')}
           >
             <img
-              src="https://i.imgur.com/rxC6nCV.png"
+              src="https://i.imgur.com/Tk5H4Is.jpeg"
               alt="3B Creative Ministry Logo"
               className="h-20 w-auto object-contain"
             />
