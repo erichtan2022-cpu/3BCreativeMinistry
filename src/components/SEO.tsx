@@ -8,7 +8,7 @@ interface SEOProps {
 
 export default function SEO({ title, description, keywords }: SEOProps) {
   useEffect(() => {
-    const defaultTitle = '3B Creative Ministry – Pelayanan Media Kristen Modern';
+    const defaultTitle = '3B Ministry – Pelayanan Media Kristen Modern';
     const defaultDescription = 'Pelayanan media Kristen yang memperlengkapi gereja, komunitas, dan generasi muda melalui kreativitas, pelatihan media, podcast, renungan, dan radio streaming.';
     const defaultKeywords = 'pelayanan media Kristen, creative ministry, konten rohani, podcast Kristen, renungan Kristen, radio rohani, produksi media gereja, yayasan Kristen, donasi pelayanan Kristen';
 

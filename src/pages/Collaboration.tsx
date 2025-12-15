@@ -86,7 +86,7 @@ export default function Collaboration({ onNavigate }: CollaborationProps) {
     {
       name: 'Pdt. Michael Santoso',
       church: 'GKI Surya Kasih',
-      quote: 'Kemitraan dengan 3B Creative Ministry telah mentransformasi pelayanan media kami. Tim yang profesional dan berpengalaman.',
+      quote: 'Kemitraan dengan 3B Ministry telah mentransformasi pelayanan media kami. Tim yang profesional dan berpengalaman.',
     },
     {
       name: 'Sarah Wijaya',
@@ -98,8 +98,8 @@ export default function Collaboration({ onNavigate }: CollaborationProps) {
   return (
     <div className="pt-16 animate-fadeIn">
       <SEO
-        title="Kolaborasi - 3B Creative Ministry"
-        description="Mari berkolaborasi dengan 3B Creative Ministry untuk membangun pelayanan media yang lebih efektif. Partnership strategis untuk gereja dan komunitas Kristen."
+        title="Kolaborasi - 3B Ministry"
+        description="Mari berkolaborasi dengan 3B Ministry untuk membangun pelayanan media yang lebih efektif. Partnership strategis untuk gereja dan komunitas Kristen."
       />
 
       <section className="bg-gradient-to-br from-[#0d5e96] to-[#0a4a72] text-white py-20">
@@ -118,7 +118,7 @@ export default function Collaboration({ onNavigate }: CollaborationProps) {
               Mengapa Berkolaborasi dengan Kami?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Partnership dengan 3B Creative Ministry memberikan nilai tambah yang signifikan untuk pelayanan Anda
+              Partnership dengan 3B Ministry memberikan nilai tambah yang signifikan untuk pelayanan Anda
             </p>
           </div>
 

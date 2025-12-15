@@ -15,7 +15,7 @@ export default function Berbuah() {
     {
       name: 'Budi Santoso',
       role: 'Pemimpin Komunitas',
-      content: 'Melalui 3B Creative Ministry, saya menemukan panggilan hidup yang sejati. Program pembelajaran dan komunitas yang solid membuat saya tumbuh tidak hanya spiritually tetapi juga profesionally.',
+      content: 'Melalui 3B Ministry, saya menemukan panggilan hidup yang sejati. Program pembelajaran dan komunitas yang solid membuat saya tumbuh tidak hanya spiritually tetapi juga profesionally.',
       image: 'https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg'
     },
     {
@@ -27,7 +27,7 @@ export default function Berbuah() {
     {
       name: 'Ahmad Rahman',
       role: 'Pastor & Mentor',
-      content: 'Kolaborasi dengan 3B Creative Ministry membuka pintu baru dalam pelayanan gereja kami. Program dan materi yang mereka sediakan sangat relevan dan impactful untuk generasi muda.',
+      content: 'Kolaborasi dengan 3B Ministry membuka pintu baru dalam pelayanan gereja kami. Program dan materi yang mereka sediakan sangat relevan dan impactful untuk generasi muda.',
       image: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg'
     }
   ];
@@ -35,7 +35,7 @@ export default function Berbuah() {
   return (
     <div className="animate-fadeIn">
       <SEO
-        title="Berbuah – Kesaksian & Pelayanan | 3B Creative Ministry"
+        title="Berbuah – Kesaksian & Pelayanan | 3B Ministry"
         description="Kisah nyata tentang transformasi hidup, pelayanan yang berdampak, dan bagaimana Anda bisa berkontribusi dalam misi kami."
       />
 
@@ -207,7 +207,7 @@ export default function Berbuah() {
               {
                 percentage: '10%',
                 title: 'Operasional & Tim',
-                description: 'Mendukung tim profesional yang mengelola dan mengembangkan program 3B Creative Ministry dengan dedikasi penuh.'
+                description: 'Mendukung tim profesional yang mengelola dan mengembangkan program 3B Ministry dengan dedikasi penuh.'
               }
             ].map((item, index) => (
               <div

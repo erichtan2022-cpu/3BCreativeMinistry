@@ -112,8 +112,8 @@ export default function Media() {
   return (
     <div className="pt-16 animate-fadeIn">
       <SEO
-        title="Media - 3B Creative Ministry"
-        description="Jelajahi koleksi podcast, video, dan renungan rohani dari 3B Creative Ministry. Dengarkan radio streaming 24/7 dengan konten yang membangun iman."
+        title="Media - 3B Ministry"
+        description="Jelajahi koleksi podcast, video, dan renungan rohani dari 3B Ministry. Dengarkan radio streaming 24/7 dengan konten yang membangun iman."
       />
 
       <section className="bg-gradient-to-br from-[#0d5e96] to-[#0a4a72] text-white py-20">

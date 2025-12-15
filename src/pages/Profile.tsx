@@ -4,11 +4,11 @@ import SEO from '../components/SEO';
 export default function Profile() {
   const founders = [
     {
-      name: 'Pdt. Dr. Philip S. Buulolo, M.Th',
+      name: 'Pdt. DR. Philip S. Buulolo, M.A., M.Th',
       image: 'https://i.imgur.com/iHcAotC.jpeg',
     },
     {
-      name: 'Pdt. Dr. Joseph Kuntadi, S.E., M.Th',
+      name: 'Rev. DR. Joseph Kuntadi, S.E., M.Th',
       image: 'https://i.imgur.com/Ot4IN8k.jpeg',
     },
     {
@@ -57,8 +57,8 @@ export default function Profile() {
   return (
     <div className="pt-16 animate-fadeIn">
       <SEO
-        title="Profil - 3B Creative Ministry"
-        description="Mengenal lebih dalam tentang 3B Creative Ministry: pelayanan media Kristen yang berakar, bertumbuh, dan berbuah untuk memberdayakan gereja dan generasi muda."
+        title="Profil - 3B Ministry"
+        description="Mengenal lebih dalam tentang 3B Ministry: pelayanan media Kristen yang berakar, bertumbuh, dan berbuah untuk memberdayakan gereja dan generasi muda."
       />
 
       <section className="relative bg-gradient-to-br from-[#0d5e96] to-[#0a4a72] text-white py-20 overflow-hidden">
@@ -66,7 +66,7 @@ export default function Profile() {
           <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSA2MCAwIEwgMCAwIEwgMCA2MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIwLjUiLz48L3BhdHRlcm4+PC9kZWZzPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JpZCkiLz48L3N2Zz4=')] bg-repeat opacity-10"></div>
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Profil 3B Creative Ministry</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">Profil 3B Ministry</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto">
             Berakar, Bertumbuh, Berbuah dalam pelayanan media Kristen
           </p>
@@ -82,7 +82,7 @@ export default function Profile() {
 
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                <span className="font-semibold text-[#0d5e96]">3B Creative Ministry</span> adalah sebuah pelayanan media Kristen yang hadir untuk memberdayakan gereja, komunitas, dan generasi muda melalui kreativitas, teknologi, dan konten yang membangun iman.
+                <span className="font-semibold text-[#0d5e96]">3B Ministry</span> adalah sebuah pelayanan media Kristen yang hadir untuk memberdayakan gereja, komunitas, dan generasi muda melalui kreativitas, teknologi, dan konten yang membangun iman.
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed mb-6">

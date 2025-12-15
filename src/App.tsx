@@ -22,44 +22,44 @@ interface PageMetadata {
 
 const pageMetadata: Record<PageType, PageMetadata> = {
   home: {
-    title: '3B Creative Ministry – Pelayanan Media Kristen Modern',
+    title: '3B Ministry – Pelayanan Media Kristen Modern',
     description: 'Memberdayakan Gereja & Generasi Melalui Kreativitas dan Media Kristen. Berakar, Bertumbuh, Berbuah dalam pelayanan.',
   },
   berakar: {
-    title: 'Berakar – Kuat dalam Iman dan Firman Tuhan | 3B Creative Ministry',
+    title: 'Berakar – Kuat dalam Iman dan Firman Tuhan | 3B Ministry',
     description: 'Program Berakar: membangun fondasi iman yang kuat melalui pengajaran firman Tuhan dan pembinaan rohani yang mendalam.',
   },
   bertumbuh: {
-    title: 'Bertumbuh – Berkembang dalam Kreativitas dan Pelayanan | 3B Creative Ministry',
+    title: 'Bertumbuh – Berkembang dalam Kreativitas dan Pelayanan | 3B Ministry',
     description: 'Program Bertumbuh: pelatihan media dan kreativitas untuk mengembangkan talenta dalam pelayanan Kristen modern.',
   },
   berbuah: {
-    title: 'Berbuah – Memberkati Bangsa Melalui Media | 3B Creative Ministry',
+    title: 'Berbuah – Memberkati Bangsa Melalui Media | 3B Ministry',
     description: 'Program Berbuah: menjangkau dan memberkati lebih banyak jiwa melalui produksi konten dan media Kristen berkualitas.',
   },
   profile: {
-    title: 'Profil Kami | 3B Creative Ministry',
-    description: 'Kenali lebih dalam tentang 3B Creative Ministry, visi, misi, dan tim yang melayani dalam pelayanan media Kristen.',
+    title: 'Profil Kami | 3B Ministry',
+    description: 'Kenali lebih dalam tentang 3B Ministry, visi, misi, dan tim yang melayani dalam pelayanan media Kristen.',
   },
   programs: {
-    title: 'Program Pelayanan | 3B Creative Ministry',
+    title: 'Program Pelayanan | 3B Ministry',
     description: 'Jelajahi berbagai program pelayanan kami: produksi media, pelatihan, kolaborasi gereja, dan platform digital.',
   },
   media: {
-    title: 'Media & Konten | 3B Creative Ministry',
+    title: 'Media & Konten | 3B Ministry',
     description: 'Akses koleksi konten rohani, video, audio, dan media kreatif untuk membangun iman dan memberkati komunitas.',
   },
   collaboration: {
-    title: 'Kolaborasi | 3B Creative Ministry',
-    description: 'Bermitra dengan 3B Creative Ministry untuk mengembangkan pelayanan media di gereja dan komunitas Anda.',
+    title: 'Kolaborasi | 3B Ministry',
+    description: 'Bermitra dengan 3B Ministry untuk mengembangkan pelayanan media di gereja dan komunitas Anda.',
   },
   donation: {
-    title: 'Donasi | Dukung Pelayanan Media Kristen | 3B Creative Ministry',
+    title: 'Donasi | Dukung Pelayanan Media Kristen | 3B Ministry',
     description: 'Jadilah bagian dari pekerjaan Tuhan dengan mendukung pelayanan media Kristen yang memberkati banyak jiwa.',
   },
   contact: {
-    title: 'Kontak Kami | 3B Creative Ministry',
-    description: 'Hubungi 3B Creative Ministry untuk informasi lebih lanjut tentang pelayanan, kolaborasi, dan program media Kristen.',
+    title: 'Kontak Kami | 3B Ministry',
+    description: 'Hubungi 3B Ministry untuk informasi lebih lanjut tentang pelayanan, kolaborasi, dan program media Kristen.',
   },
 };
 

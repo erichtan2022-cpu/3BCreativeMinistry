@@ -43,8 +43,8 @@ export default function Contact() {
     {
       icon: Phone,
       title: 'Telepon & WhatsApp',
-      content: '+62 888-0806-8106',
-      link: 'https://wa.me/6288808068106',
+      content: '+62 811-8331-111',
+      link: 'https://wa.me/628118331111',
     },
     {
       icon: MapPin,
@@ -57,8 +57,8 @@ export default function Contact() {
   return (
     <div className="pt-16 animate-fadeIn">
       <SEO
-        title="Kontak - 3B Creative Ministry"
-        description="Hubungi 3B Creative Ministry untuk konsultasi, kerjasama, atau informasi lebih lanjut tentang pelayanan media Kristen kami."
+        title="Kontak - 3B Ministry"
+        description="Hubungi 3B Ministry untuk konsultasi, kerjasama, atau informasi lebih lanjut tentang pelayanan media Kristen kami."
       />
 
       <section className="bg-gradient-to-br from-[#0d5e96] to-[#0a4a72] text-white py-20">
@@ -234,7 +234,7 @@ export default function Contact() {
                 </p>
                 <div className="space-y-3">
                   <a
-                    href="https://wa.me/628123456789"
+                    href="https://wa.me/628118331111"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block bg-white/20 hover:bg-white/30 backdrop-blur-sm px-6 py-3 rounded-lg transition-all"

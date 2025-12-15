@@ -79,7 +79,7 @@ export default function Donation() {
   return (
     <div className="pt-16 animate-fadeIn">
       <SEO
-        title="Donasi - 3B Creative Ministry"
+        title="Donasi - 3B Ministry"
         description="Jadilah bagian dari pekerjaan Tuhan melalui media. Dukungan Anda memampukan kami melayani dan memberkati lebih banyak jiwa melalui pelayanan media Kristen."
       />
 
@@ -100,11 +100,11 @@ export default function Donation() {
             <div className="inline-flex items-center justify-center space-x-2 mb-4">
               <Sparkles className="h-8 w-8 text-[#ff7e28]" />
               <h2 className="text-3xl md:text-4xl font-bold text-[#0d5e96]">
-                Manfaat Berdonasi Melalui 3B Creative Ministry
+                Manfaat Berdonasi Melalui 3B Ministry
               </h2>
             </div>
             <p className="text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed">
-              Memberikan donasi melalui 3B Creative Ministry bukan hanya sebuah tindakan dukungan, tetapi juga investasi bagi pekerjaan Tuhan dan masa depan generasi. Berikut sejumlah manfaat yang dapat Anda peroleh sebagai donatur:
+              Memberikan donasi melalui 3B Ministry bukan hanya sebuah tindakan dukungan, tetapi juga investasi bagi pekerjaan Tuhan dan masa depan generasi. Berikut sejumlah manfaat yang dapat Anda peroleh sebagai donatur:
             </p>
           </div>
 
@@ -119,7 +119,7 @@ export default function Donation() {
                     1. Mendapatkan Pengurangan Beban Pajak
                   </h3>
                   <p className="text-gray-700 leading-relaxed mb-4">
-                    3B Creative Ministry terdaftar secara resmi, sehingga donasi Anda dapat dijadikan pengurang penghasilan bruto sesuai ketentuan yang berlaku.
+                    3B Ministry terdaftar secara resmi, sehingga donasi Anda dapat dijadikan pengurang penghasilan bruto sesuai ketentuan yang berlaku.
                   </p>
                   <div className="bg-[#0d5e96]/5 rounded-xl p-5">
                     <p className="font-semibold text-[#0d5e96] mb-3">Hasilnya:</p>
@@ -155,7 +155,7 @@ export default function Donation() {
                     Berdonasi bukan sekadar memberikan dana—ini adalah bentuk ibadah, kasih, dan kepedulian.
                   </p>
                   <p className="text-gray-700 leading-relaxed mb-3">
-                    Melalui 3B Creative Ministry, Anda berkontribusi pada:
+                    Melalui 3B Ministry, Anda berkontribusi pada:
                   </p>
                   <ul className="space-y-2 mb-4">
                     <li className="flex items-start space-x-2">
@@ -221,7 +221,7 @@ export default function Donation() {
                     4. Meningkatkan Citra & Reputasi
                   </h3>
                   <p className="text-gray-700 leading-relaxed mb-4">
-                    Bagi individu maupun perusahaan, donasi resmi melalui 3B Creative Ministry dapat meningkatkan:
+                    Bagi individu maupun perusahaan, donasi resmi melalui 3B Ministry dapat meningkatkan:
                   </p>
                   <ul className="space-y-2 mb-4">
                     <li className="flex items-start space-x-2">
@@ -254,7 +254,7 @@ export default function Donation() {
                     5. Transparansi & Akuntabilitas Terjamin
                   </h3>
                   <p className="text-gray-700 leading-relaxed mb-4">
-                    Sebagai lembaga pelayanan resmi, 3B Creative Ministry menjalankan:
+                    Sebagai lembaga pelayanan resmi, 3B Ministry menjalankan:
                   </p>
                   <ul className="space-y-2 mb-4">
                     <li className="flex items-start space-x-2">
@@ -409,13 +409,13 @@ export default function Donation() {
                 <div className="bg-white/20 rounded-lg p-4">
                   <p className="text-sm text-gray-200 mb-1">Bank BCA</p>
                   <p className="font-mono text-xl font-bold">1234567890</p>
-                  <p className="text-sm text-gray-200">a.n. 3B Creative Ministry</p>
+                  <p className="text-sm text-gray-200">a.n. 3B Ministry</p>
                 </div>
 
                 <div className="bg-white/20 rounded-lg p-4">
                   <p className="text-sm text-gray-200 mb-1">Bank Mandiri</p>
                   <p className="font-mono text-xl font-bold">0987654321</p>
-                  <p className="text-sm text-gray-200">a.n. 3B Creative Ministry</p>
+                  <p className="text-sm text-gray-200">a.n. 3B Ministry</p>
                 </div>
               </div>
             </div>
@@ -425,7 +425,7 @@ export default function Donation() {
               <ol className="space-y-3 list-decimal list-inside">
                 <li className="text-gray-100">Transfer ke salah satu rekening di atas</li>
                 <li className="text-gray-100">Sertakan nama dan tujuan donasi di berita transfer</li>
-                <li className="text-gray-100">Konfirmasi via WhatsApp: +62 888-0806-8106</li>
+                <li className="text-gray-100">Konfirmasi via WhatsApp: +62 811-8331-111</li>
                 <li className="text-gray-100">Kami akan mengirimkan tanda terima donasi</li>
               </ol>
             </div>
@@ -449,7 +449,7 @@ export default function Donation() {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://wa.me/628123456789"
+                href="https://wa.me/628118331111"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#25D366] hover:bg-[#1da851] text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105"

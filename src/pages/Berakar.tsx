@@ -14,7 +14,7 @@ export default function Berakar() {
   return (
     <div className="animate-fadeIn">
       <SEO
-        title="Berakar – Renungan & Dasar Iman | 3B Creative Ministry"
+        title="Berakar – Renungan & Dasar Iman | 3B Ministry"
         description="Program Renungan dan Dasar Iman untuk memperkuat fondasi iman Anda dalam Kristus melalui pembinaan rohani yang mendalam."
       />
 

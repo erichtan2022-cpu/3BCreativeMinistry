@@ -83,7 +83,7 @@ export default function Programs({ onNavigate }: ProgramsProps) {
   return (
     <div className="pt-16 animate-fadeIn">
       <SEO
-        title="Program Pelayanan - 3B Creative Ministry"
+        title="Program Pelayanan - 3B Ministry"
         description="Program pelayanan media Kristen: produksi media, pelatihan kreativitas, kolaborasi gereja, dan pengembangan platform digital untuk memberdayakan pelayanan Anda."
       />
 

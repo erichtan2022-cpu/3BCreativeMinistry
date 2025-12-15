@@ -11,7 +11,7 @@ export default function Home({ onNavigate, onPlayRadio }: HomeProps) {
   return (
     <div className="animate-fadeIn">
       <SEO
-        title="3B Creative Ministry – Pelayanan Media Kristen Modern"
+        title="3B Ministry – Pelayanan Media Kristen Modern"
         description="Memberdayakan Gereja & Generasi Melalui Kreativitas dan Media Kristen. Berakar, Bertumbuh, Berbuah dalam pelayanan."
       />
 
@@ -98,10 +98,10 @@ export default function Home({ onNavigate, onPlayRadio }: HomeProps) {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-[#0d5e96] mb-6">
-                Tentang 3B Creative Ministry
+                Tentang 3B Ministry
               </h2>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-                3B Creative Ministry adalah sebuah pelayanan media Kristen yang hadir untuk memberdayakan gereja, komunitas, dan generasi muda melalui kreativitas, teknologi, dan konten yang membangun iman.
+                3B Ministry adalah sebuah pelayanan media Kristen yang hadir untuk memberdayakan gereja, komunitas, dan generasi muda melalui kreativitas, teknologi, dan konten yang membangun iman.
               </p>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                 Nama "3B" diambil dari prinsip rohani:{' '}

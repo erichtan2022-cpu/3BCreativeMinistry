@@ -14,7 +14,7 @@ export default function Bertumbuh() {
   return (
     <div className="animate-fadeIn">
       <SEO
-        title="Bertumbuh – Materi Pembelajaran & Komunitas | 3B Creative Ministry"
+        title="Bertumbuh – Materi Pembelajaran & Komunitas | 3B Ministry"
         description="Program Materi Pembelajaran dan Komunitas untuk pengembangan diri dan pertumbuhan bersama dalam lingkungan yang sehat dan suportif."
       />
 

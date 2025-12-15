@@ -56,14 +56,15 @@ export default function Navigation({ currentPage, onNavigate }: NavigationProps)
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-24">
           <div
-            className="flex items-center cursor-pointer"
+            className="flex items-center space-x-3 cursor-pointer"
             onClick={() => handleNavigate('home')}
           >
             <img
               src="https://i.imgur.com/Tk5H4Is.jpeg"
-              alt="3B Creative Ministry Logo"
+              alt="3B Ministry Logo"
               className="h-16 w-auto object-contain"
             />
+            <span className="text-2xl font-bold text-[#0d5e96]">3B Ministry</span>
           </div>
 
           <div className="hidden md:flex space-x-6 items-center">

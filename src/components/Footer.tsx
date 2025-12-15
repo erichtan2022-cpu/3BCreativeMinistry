@@ -12,7 +12,7 @@ export default function Footer({ onNavigate }: FooterProps) {
           <div>
             <img
               src="https://i.imgur.com/Tk5H4Is.jpeg"
-              alt="3B Creative Ministry Logo"
+              alt="3B Ministry Logo"
               className="h-12 w-auto object-contain mb-4"
             />
             <p className="text-gray-400 text-sm">
@@ -61,7 +61,7 @@ export default function Footer({ onNavigate }: FooterProps) {
               </li>
               <li className="flex items-center space-x-2 text-gray-400 text-sm">
                 <Phone className="h-4 w-4" />
-                <span>+62 888-0806-8106</span>
+                <span>+62 811-8331-111</span>
               </li>
               <li className="flex items-center space-x-2 text-gray-400 text-sm">
                 <MapPin className="h-4 w-4" />
@@ -73,7 +73,7 @@ export default function Footer({ onNavigate }: FooterProps) {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400 text-sm">
-            &copy; {new Date().getFullYear()} 3B Creative Ministry. All rights reserved.
+            &copy; {new Date().getFullYear()} 3B Ministry. All rights reserved.
           </p>
         </div>
       </div>
