@@ -13,7 +13,7 @@ export default function Footer({ onNavigate }: FooterProps) {
             <img
               src="https://i.imgur.com/Tk5H4Is.jpeg"
               alt="3B Creative Ministry Logo"
-              className="h-12 w-auto object-contain mb-4 brightness-0 invert"
+              className="h-18 w-auto object-contain mb-4"
             />
             <p className="text-gray-400 text-sm">
               Berakar, Bertumbuh, Berbuah dalam pelayanan media Kristen

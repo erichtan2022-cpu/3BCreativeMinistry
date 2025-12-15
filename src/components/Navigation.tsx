@@ -62,7 +62,7 @@ export default function Navigation({ currentPage, onNavigate }: NavigationProps)
             <img
               src="https://i.imgur.com/Tk5H4Is.jpeg"
               alt="3B Creative Ministry Logo"
-              className="h-20 w-auto object-contain"
+              className="h-30 w-auto object-contain"
             />
           </div>
 
