@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Headphones, Video, BookOpen, Play, Calendar } from 'lucide-react';
 import RadioPlayer from '../components/RadioPlayer';
 import SEO from '../components/SEO';
+import VideoThumbnail from '../components/VideoThumbnail';
 
 export default function Media() {
   const [activeTab, setActiveTab] = useState<'podcast' | 'video' | 'article'>('podcast');
@@ -203,22 +204,22 @@ export default function Media() {
                   key={video.id}
                   className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
                 >
-                  <div className="relative bg-gradient-to-br from-[#0d5e96] to-[#0a4a72] h-48 flex items-center justify-center">
-                    <Video className="h-16 w-16 text-white/50" />
+                  <div className="relative h-48">
+                    <VideoThumbnail videoLink={video.link} className="h-full w-full" />
                     {video.link ? (
                       <a
                         href={video.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="absolute inset-0 flex items-center justify-center bg-black/30 hover:bg-black/40 transition-colors"
+                        className="absolute inset-0 flex items-center justify-center bg-black/30 hover:bg-black/40 transition-colors group"
                       >
-                        <div className="bg-[#ff7e28] text-white p-4 rounded-full">
+                        <div className="bg-[#ff7e28] text-white p-4 rounded-full transform group-hover:scale-110 transition-transform duration-300 shadow-lg">
                           <Play className="h-8 w-8" fill="currentColor" />
                         </div>
                       </a>
                     ) : (
-                      <button className="absolute inset-0 flex items-center justify-center bg-black/30 hover:bg-black/40 transition-colors">
-                        <div className="bg-[#ff7e28] text-white p-4 rounded-full">
+                      <button className="absolute inset-0 flex items-center justify-center bg-black/30 hover:bg-black/40 transition-colors group">
+                        <div className="bg-[#ff7e28] text-white p-4 rounded-full transform group-hover:scale-110 transition-transform duration-300 shadow-lg">
                           <Play className="h-8 w-8" fill="currentColor" />
                         </div>
                       </button>
