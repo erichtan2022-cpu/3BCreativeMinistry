@@ -13,7 +13,7 @@ export default function Profile() {
     },
     {
       name: 'Pnt. Yusmanto Arywiguna, S.M.',
-      image: 'https://i.imgur.com/BWPYt8Q.jpeg',
+      image: 'https://i.imgur.com/1lYKHm3.jpeg',
     },
   ];
 
