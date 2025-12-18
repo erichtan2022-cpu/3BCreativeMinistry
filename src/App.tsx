@@ -12,8 +12,9 @@ import Media from './pages/Media';
 import Collaboration from './pages/Collaboration';
 import Donation from './pages/Donation';
 import Contact from './pages/Contact';
+import Aktivitas from './pages/Aktivitas';
 
-type PageType = 'home' | 'berakar' | 'bertumbuh' | 'berbuah' | 'profile' | 'programs' | 'media' | 'collaboration' | 'donation' | 'contact';
+type PageType = 'home' | 'berakar' | 'bertumbuh' | 'berbuah' | 'profile' | 'programs' | 'media' | 'collaboration' | 'donation' | 'contact' | 'aktivitas';
 
 interface PageMetadata {
   title: string;
@@ -61,6 +62,10 @@ const pageMetadata: Record<PageType, PageMetadata> = {
     title: 'Kontak Kami | 3B Ministry',
     description: 'Hubungi 3B Ministry untuk informasi lebih lanjut tentang pelayanan, kolaborasi, dan program media Kristen.',
   },
+  aktivitas: {
+    title: 'Aktivitas & Kegiatan | 3B Ministry',
+    description: 'Jelajahi kegiatan dan acara terbaru dari 3B Ministry. Bergabunglah dengan program, perayaan, dan talkshow rohani yang menginspirasi.',
+  },
 };
 
 function App() {
@@ -102,6 +107,8 @@ function App() {
         return <Donation onNavigate={handleNavigate} />;
       case 'contact':
         return <Contact />;
+      case 'aktivitas':
+        return <Aktivitas />;
       default:
         return <Home onNavigate={handleNavigate} />;
     }

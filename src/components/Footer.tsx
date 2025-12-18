@@ -23,10 +23,10 @@ export default function Footer({ onNavigate }: FooterProps) {
           <div>
             <h3 className="text-lg font-semibold mb-4 text-[#28763a]">Menu</h3>
             <ul className="space-y-2">
-              {['Beranda', 'Profil', 'Program', 'Media'].map((item, index) => (
+              {['Beranda', 'Profil', 'Program', 'Media', 'Aktivitas'].map((item, index) => (
                 <li key={item}>
                   <button
-                    onClick={() => onNavigate(['home', 'profile', 'programs', 'media'][index])}
+                    onClick={() => onNavigate(['home', 'profile', 'programs', 'media', 'aktivitas'][index])}
                     className="text-gray-400 hover:text-[#28763a] transition-colors text-sm"
                   >
                     {item}

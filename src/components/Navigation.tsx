@@ -21,6 +21,7 @@ export default function Navigation({ currentPage, onNavigate }: NavigationProps)
     { id: 'profile', label: 'Profil' },
     { id: 'programs', label: 'Program' },
     { id: 'media', label: 'Media' },
+    { id: 'aktivitas', label: 'Aktivitas' },
     { id: 'collaboration', label: 'Kolaborasi' },
     { id: 'donation', label: 'Donasi' },
     { id: 'contact', label: 'Kontak' },
