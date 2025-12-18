@@ -40,11 +40,12 @@ export default function Media() {
   const videos = [
     {
       id: 1,
-      title: 'Workshop Videografi Gereja',
-      description: 'Tutorial lengkap videografi untuk pelayanan gereja',
-      duration: '45 menit',
-      date: '14 Nov 2025',
+      title: 'AWAS !! Penghambat Pertumbuhan Rohani',
+      description: 'Bersama Ev. Dr. Josep Kuntadi SE, M.Th',
+      duration: '1 jam 30 menit',
+      date: '17 Desember 2025',
       thumbnail: 'video',
+      link: 'https://www.youtube.com/live/baKVhCILvoE',
     },
     {
       id: 2,
@@ -204,11 +205,24 @@ export default function Media() {
                 >
                   <div className="relative bg-gradient-to-br from-[#0d5e96] to-[#0a4a72] h-48 flex items-center justify-center">
                     <Video className="h-16 w-16 text-white/50" />
-                    <button className="absolute inset-0 flex items-center justify-center bg-black/30 hover:bg-black/40 transition-colors">
-                      <div className="bg-[#ff7e28] text-white p-4 rounded-full">
-                        <Play className="h-8 w-8" fill="currentColor" />
-                      </div>
-                    </button>
+                    {video.link ? (
+                      <a
+                        href={video.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="absolute inset-0 flex items-center justify-center bg-black/30 hover:bg-black/40 transition-colors"
+                      >
+                        <div className="bg-[#ff7e28] text-white p-4 rounded-full">
+                          <Play className="h-8 w-8" fill="currentColor" />
+                        </div>
+                      </a>
+                    ) : (
+                      <button className="absolute inset-0 flex items-center justify-center bg-black/30 hover:bg-black/40 transition-colors">
+                        <div className="bg-[#ff7e28] text-white p-4 rounded-full">
+                          <Play className="h-8 w-8" fill="currentColor" />
+                        </div>
+                      </button>
+                    )}
                   </div>
                   <div className="p-6">
                     <h3 className="text-xl font-semibold text-[#0d5e96] mb-2">
