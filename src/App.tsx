@@ -13,8 +13,9 @@ import Collaboration from './pages/Collaboration';
 import Donation from './pages/Donation';
 import Contact from './pages/Contact';
 import Aktivitas from './pages/Aktivitas';
+import ChristianThinkers from './pages/ChristianThinkers';
 
-type PageType = 'home' | 'berakar' | 'bertumbuh' | 'berbuah' | 'profile' | 'programs' | 'media' | 'collaboration' | 'donation' | 'contact' | 'aktivitas';
+type PageType = 'home' | 'berakar' | 'bertumbuh' | 'berbuah' | 'profile' | 'programs' | 'media' | 'collaboration' | 'donation' | 'contact' | 'aktivitas' | 'christian-thinkers';
 
 interface PageMetadata {
   title: string;
@@ -66,6 +67,10 @@ const pageMetadata: Record<PageType, PageMetadata> = {
     title: 'Aktivitas & Kegiatan | 3B Ministry',
     description: 'Jelajahi kegiatan dan acara terbaru dari 3B Ministry. Bergabunglah dengan program, perayaan, dan talkshow rohani yang menginspirasi.',
   },
+  'christian-thinkers': {
+    title: 'Christian Thinkers - Where Faith Meets Reason | 3B Ministry',
+    description: 'Komunitas bagi mereka yang percaya bahwa iman Kristen dan pemikiran rasional bukanlah musuh, tetapi sekutu yang kuat. Mengintegrasikan teologi, sains, dan filsafat untuk iman yang utuh.',
+  },
 };
 
 function App() {
@@ -109,6 +114,8 @@ function App() {
         return <Contact />;
       case 'aktivitas':
         return <Aktivitas />;
+      case 'christian-thinkers':
+        return <ChristianThinkers />;
       default:
         return <Home onNavigate={handleNavigate} />;
     }

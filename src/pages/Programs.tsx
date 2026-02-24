@@ -1,4 +1,4 @@
-import { Radio, Users, Handshake, Smartphone, Video, BookOpen, Headphones, Globe } from 'lucide-react';
+import { Radio, Users, Handshake, Smartphone, Video, BookOpen, Headphones, Globe, Brain } from 'lucide-react';
 import SEO from '../components/SEO';
 
 interface ProgramsProps {
@@ -7,6 +7,20 @@ interface ProgramsProps {
 
 export default function Programs({ onNavigate }: ProgramsProps) {
   const programs = [
+    {
+      title: 'Christian Thinkers',
+      description: 'Komunitas bagi mereka yang percaya bahwa iman Kristen dan pemikiran rasional bukanlah musuh, tetapi sekutu yang kuat. Melalui buku, podcast, dan pengajaran, kami mengeksplorasi kebenaran alkitabiah dengan pendekatan intelektual yang sehat, mengintegrasikan teologi, sains, dan filsafat untuk iman yang utuh.',
+      icon: Brain,
+      features: [
+        'Membangun iman yang kokoh melalui pemahaman, bukan hanya perasaan',
+        'Memperlengkapi kaum muda Kristen dengan alat berpikir kritis',
+        'Menjembatani kesenjangan antara gereja dan komunitas intelektual',
+        'Menunjukkan harmoni antara wahyu Tuhan dan ciptaan-Nya',
+        'Menyuarakan ide dan pandangan tentang kekristenan sesuai Firman Tuhan',
+      ],
+      hasDetailPage: true,
+      slug: 'christian-thinkers',
+    },
     {
       title: 'Produksi Media Kristen',
       description: 'Layanan produksi konten audio-visual berkualitas tinggi untuk gereja, komunitas, dan pelayanan Kristen',
@@ -116,7 +130,9 @@ export default function Programs({ onNavigate }: ProgramsProps) {
 
                 <div className={index % 2 === 1 ? 'lg:order-1' : ''}>
                   <div className="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-8 shadow-lg border border-gray-100">
-                    <h3 className="text-2xl font-semibold text-[#0d5e96] mb-6">Layanan Meliputi:</h3>
+                    <h3 className="text-2xl font-semibold text-[#0d5e96] mb-6">
+                      {program.hasDetailPage ? 'Misi Kami:' : 'Layanan Meliputi:'}
+                    </h3>
                     <ul className="space-y-4">
                       {program.features.map((feature, idx) => (
                         <li key={idx} className="flex items-start space-x-3">
@@ -127,6 +143,14 @@ export default function Programs({ onNavigate }: ProgramsProps) {
                         </li>
                       ))}
                     </ul>
+                    {program.hasDetailPage && (
+                      <button
+                        onClick={() => onNavigate(program.slug)}
+                        className="mt-6 w-full bg-[#ff7e28] hover:bg-[#e6711f] text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
+                      >
+                        Pelajari Lebih Lanjut
+                      </button>
+                    )}
                   </div>
                 </div>
               </div>
